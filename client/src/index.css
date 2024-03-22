@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Nobile", sans-serif;
+  line-height: 150%;
+  font-size: 120%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
@@ -45,12 +45,16 @@ code {
   padding: 0;
   flex: 1 1 auto;
   overflow: auto;
-  background-color: rgba(40, 54, 24, 0.8);
+  background-color: rgba(40, 54, 24, 0.9);
 }
 
 #header {
   width: 100%;
   background-color: var(--dark-green-1);
+}
+
+#header h3 {
+  font-weight: normal;
 }
 
 #footer {
@@ -64,4 +68,20 @@ code {
 
 .dark-green-bg {
   background-color: var(--dark-green-2);
+}
+
+.two-thirds {
+  width: 66%;
+  margin: auto;
+}
+
+.padded {
+  padding: 2rem;
+}
+
+#main-img {
+  position: relative;
+  border-radius: 170px;
+  max-width: 400px;
+  max-height: 500px;
 }
