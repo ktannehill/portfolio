@@ -23,12 +23,20 @@ code {
   --dark-green-2: #283618; 
   --dark-orange-1: #DDA15E; 
   --dark-orange-2: #BC6C25; 
+
+  background: var(--dark-green-2);
+  color: var(--cream)
 }
 
 #flex {
   display: flex;
   flex-flow: column;
-  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  /* min-height: 100vh; */
+  background-image: url("https://images.unsplash.com/photo-1612485222394-376d81a3e829?q=80&w=2046&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #outlet {
@@ -36,6 +44,8 @@ code {
   margin: 0;
   padding: 0;
   flex: 1 1 auto;
+  overflow: auto;
+  background-color: rgba(40, 54, 24, 0.8);
 }
 
 #header {
@@ -50,4 +60,8 @@ code {
 
 #container {
   width: 100%;
+}
+
+.dark-green-bg {
+  background-color: var(--dark-green-2);
 }

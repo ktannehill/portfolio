@@ -1,24 +1,25 @@
 import React from 'react'
+import headshot from "../assets/headshot.jpg"
+import { SiJavascript } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
+import { SiFlask } from "react-icons/si";
+import { SiCss3 } from "react-icons/si";
+
+const SKILLS = ["React", "JavaScript", "Python", "SQL", "Flask"]
 
 const About = () => {
   return (
-    <div>
-        <h1>I'm Kat Tannehill</h1>
-        <p>
-            a full-stack software engineer who sees coding as an artform. Just call me the digital da Vinci - I blend technical mastery and creative vision to craft innovative web apps that seamlessly unite beauty and functionality.
-        </p>
-        <p>
-            With a background in graphic design and a stint wrangling the chaos of four-legged patients (and their two-legged owners), I've mastered the art of creating order from mayhem. My secret weapons? An insatiably curious mind, a keen eye for detail, and the ability to seamlessly merge creativity with technical precision.
-        </p>
-        <p>
-            I wield an arsenal of skills including React, Python, Flask, and the masterful application of snarky comments littered throughout my code. Because what fun is coding if you can't inject a little humor? Though my puns are terrible, I make no apologies. It's a character flaw, I'm self-aware.
-        </p>
-        <p>
-            When I'm not pushing pixels or taming convoluted code logic, you'll likely find me in the kitchen - a culinary playground where I experiment with daring flavor combinations (some more successful than others). I also maintain a ever-growing jungle of  indoor plants that somehow defy my lack of a green thumb to keep on thriving.
-        </p>
-        <p>
-            At the end of the day, I live by two core principles: crafting clean, robust code that delivers meaningful solutions, and doing it all with a dash of wit that keeps things interesting. So if you need a versatile developer who can breathe life into your web apps while cracking the occasional terrible joke, I'm your gal. Let's create something extraordinary...with a side of puns, of course.
-        </p>
+    <div id="container">
+        <div>
+            <h1>I'm Kat Tannehill</h1>
+            <img src={headshot} alt="Hi, I'm Kat!" />
+        </div>
+        <div className="dark-green-bg">
+            <p>
+                Brownie candy liquorice tart gummies danish soufflé. Brownie wafer gummi bears macaroon jelly-o pastry sesame snaps chupa chups wafer. Pie tiramisu bear claw topping cupcake cotton candy donut chupa chups. Fruitcake carrot cake candy marshmallow chocolate cake. Candy canes sugar plum dragée jelly-o cookie candy. Dragée gummies bonbon chocolate bar jelly macaroon cupcake danish. Donut dessert cheesecake sesame snaps oat cake caramels chupa chups danish cake. Brownie cake sesame snaps icing lollipop macaroon chupa chups oat cake candy canes. Oat cake jelly beans jelly beans jujubes lemon drops jelly beans. Bear claw gingerbread sweet roll sesame snaps oat cake candy canes pudding macaroon danish. Biscuit wafer topping icing icing pastry chocolate donut pastry. Gingerbread chocolate sweet roll pudding shortbread jelly beans.
+            </p>
+        </div>
     </div>
   )
 }

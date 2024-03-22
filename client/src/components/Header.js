@@ -1,4 +1,6 @@
 import React from 'react'
+import { MdSunny } from "react-icons/md";
+import { IoMoon } from "react-icons/io5";
 
 const Header = () => {
   return (
@@ -13,6 +15,10 @@ const Header = () => {
         </li>
         <li>
           Contact
+        </li>
+        <li>
+          <MdSunny />
+          <IoMoon />
         </li>
       </ul>
     </div>
