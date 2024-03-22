@@ -5,7 +5,7 @@ import { IoMoon } from "react-icons/io5";
 const Header = () => {
   return (
     <div id="header">
-      KT
+      <h3>KT</h3>
       <ul>
         <li>
           About
