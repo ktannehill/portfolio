@@ -5,7 +5,9 @@ import { FaCoffee } from "react-icons/fa";
 const Footer = () => {
   return (
     <div id="footer">
-      Made with <FaHeart /> & <FaCoffee /> by Kat Tannehill
+      <p>
+        Made with <FaHeart /> && <FaCoffee /> by Kat Tannehill 2024
+      </p>
     </div>
   )
 }

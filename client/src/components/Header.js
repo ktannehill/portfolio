@@ -8,13 +8,19 @@ const Header = () => {
       <h3>KT</h3>
       <ul>
         <li>
-          About
+          <a href="">
+            About
+          </a>
         </li>
         <li>
-          Projects
+          <a href="">
+            Projects
+          </a>
         </li>
         <li>
-          Contact
+          <a href="">
+            Contact
+          </a>
         </li>
         {/* <li>
           <MdSunny />
