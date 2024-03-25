@@ -49,17 +49,34 @@ code {
 }
 
 #header {
-  width: 100%;
+  /* width: 100%; */
   background-color: var(--dark-green-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3rem;
 }
 
 #header h3 {
   font-weight: normal;
+  flex-grow: 1;
+}
+
+#header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#header li {
+  /* display: flex; */
+  padding: 0 2rem;
 }
 
 #footer {
-  width: 100%;
   background-color: var(--dark-green-1);
+  padding: 1rem 3rem;
 }
 
 #container {
@@ -84,4 +101,8 @@ code {
   border-radius: 170px;
   max-width: 400px;
   max-height: 500px;
+}
+
+::selection {
+  background: var(--dark-orange-2);
 }

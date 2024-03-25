@@ -16,10 +16,10 @@ const Header = () => {
         <li>
           Contact
         </li>
-        <li>
+        {/* <li>
           <MdSunny />
           <IoMoon />
-        </li>
+        </li> */}
       </ul>
     </div>
   )
