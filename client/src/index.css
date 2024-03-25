@@ -58,8 +58,13 @@ code {
   background-color: var(--dark-green-2);
 }
 
+.two-thirds {
+  width: 80%;
+  margin: auto;
+}
+
 .padded {
-  padding: 3rem;
+  padding: 3rem 0;
 }
 
 /*! Header/ Footer */
@@ -96,7 +101,7 @@ code {
 }
 
 #header li {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 #footer {
@@ -145,6 +150,10 @@ code {
     justify-content: center;
     align-items: center;
   }
+
+  #header li {
+    padding: 0 2rem;
+  }
 }
 
 @media (min-width: 75rem) {
@@ -154,6 +163,10 @@ code {
     gap: 3rem;
     justify-content: center;
     align-items: center;
+  }
+
+  .two-thirds {
+    width: 66%;
   }
 }
 
