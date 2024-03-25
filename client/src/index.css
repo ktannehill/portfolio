@@ -49,17 +49,38 @@ code {
 }
 
 #header {
-  width: 100%;
+  /* width: 100%; */
   background-color: var(--dark-green-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3rem;
 }
 
 #header h3 {
   font-weight: normal;
+  flex-grow: 1;
+}
+
+#header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#header li {
+  /* display: flex; */
+  padding: 0 2rem;
 }
 
 #footer {
-  width: 100%;
   background-color: var(--dark-green-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3rem;
+  font-size: 80%;
 }
 
 #container {
@@ -84,4 +105,53 @@ code {
   border-radius: 170px;
   max-width: 400px;
   max-height: 500px;
+}
+
+::selection {
+  background: var(--dark-orange-1);
+}
+
+a {
+  color: var(--cream);
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  z-index: 100;
+}
+
+a:before, a:after {
+  content: "";
+  width: 48%;
+  position: absolute;
+  transition: 0.5s;
+  top: 5%;
+  bottom: 5%;
+  z-index: -1;
+}
+
+a:before {
+  background: var(--dark-orange-1);
+  left: 5%;
+  transform: translateY(3px);
+}
+
+a:after {
+  background: var(--dark-orange-2);
+  left: 48%;
+  transform: translateY(-3px);
+}
+
+a:hover:before, a:hover:after {
+  background-color: var(--dark-orange-2);
+  transition: 0.5s;
+}
+
+a:hover:before {
+  background-color: var(--dark-orange-2);
+  transform: translateY(0px);
+}
+
+a:hover:after {
+  background-color: var(--dark-orange-2);
+  transform: translateY(0px);
 }
