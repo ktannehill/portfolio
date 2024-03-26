@@ -9,6 +9,7 @@ const Home = () => {
       <About />
       <Projects />
       <Contact />
+      <div className='padded'></div>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div id="flex">
-      <Header />
+      <Header id="loc-home" />
       <div id="outlet">
         <Outlet />
       </div>
