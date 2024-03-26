@@ -1,7 +1,13 @@
+import project1 from '../images/project-1.png'
+import project2 from '../images/project-2.png'
+import project3 from '../images/project-3.png'
+import project4 from '../images/project-4.png'
+import project5 from '../images/project-5.png'
+
 const PROJECTS = [
     {
         'id': 1,
-        'image': '../images/project-1.png',
+        'image': project1,
         'title': 'Community Events Calendar',
         'summary': 'Sweet danish cupcake halvah candy. Brownie gingerbread muffin biscuit soufflé ice cream cupcake. Soufflé jelly-o lollipop dessert cotton candy lemon drops.',
         'description': [
@@ -14,7 +20,7 @@ const PROJECTS = [
     },
     {
         'id': 2,
-        'image': '../images/project-2.png',
+        'image': project2,
         'title': 'Puppy PlayDate',
         'summary': 'Sweet danish cupcake halvah candy. Brownie gingerbread muffin biscuit soufflé ice cream cupcake. Soufflé jelly-o lollipop dessert cotton candy lemon drops.',
         'description': [
@@ -27,7 +33,7 @@ const PROJECTS = [
     },
     {
         'id': 3,
-        'image': '../images/project-3.png',
+        'image': project3,
         'title': 'The Zen of Jeopardy',
         'summary': 'Sweet danish cupcake halvah candy. Brownie gingerbread muffin biscuit soufflé ice cream cupcake. Soufflé jelly-o lollipop dessert cotton candy lemon drops.',
         'description': [
@@ -40,7 +46,7 @@ const PROJECTS = [
     },
     {
         'id': 4,
-        'image': '../images/project-4.png',
+        'image': project4,
         'title': 'CovenCraft',
         'summary': 'Sweet danish cupcake halvah candy. Brownie gingerbread muffin biscuit soufflé ice cream cupcake. Soufflé jelly-o lollipop dessert cotton candy lemon drops.',
         'description': [
@@ -53,7 +59,7 @@ const PROJECTS = [
     },
     {
         'id': 5,
-        'image': '../images/project-5.png',
+        'image': project5,
         'title': 'Paws-ibilities Rescue',
         'summary': "Empower volunteers, connect pets, and make a difference! Explore adoptable pets, sign up for events, and foster meaningful connections with this full-stack web app. Join us in creating paw-sitive impacts, one rescue at a time.",
         'description': [

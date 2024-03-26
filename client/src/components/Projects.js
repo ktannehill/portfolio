@@ -8,7 +8,9 @@ const Projects = () => {
   return (
     <div className='two-thirds padded'>
         <h1 className='orange-block'>Projects</h1>
-        {/* {mapped_projects} */}
+        <div>
+          {mapped_projects}
+        </div>
     </div>
   )
 }
