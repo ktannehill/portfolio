@@ -1,5 +1,5 @@
 import React from 'react'
-import headshot from "../assets/headshot.jpg"
+import headshot from "../assets/images/headshot.jpg"
 import { SiJavascript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
@@ -17,16 +17,36 @@ const About = () => {
             </div>
             <div id='blurb'>
                 <h2>Hi, I'm</h2>
-                <h1>Kat Tannehill</h1>
+                <h1 className='orange-block'>Kat Tannehill</h1>
                 <h3>
-                    Marzipan chocolate bar pudding jelly-o cotton candy pie. Jelly-o cotton candy jujubes gingerbread icing candy. Tiramisu toffee bonbon shortbread cotton candy lollipop toffee. Pastry tootsie roll jelly-o toffee cotton candy bear claw.
+                    Creative coder extraordinaire bridging aesthetic vision with programming prowess. Full-stack React/Flask artist crafting intuitive web experiences with purposeful design (and puns).
                 </h3>
             </div>
         </div>
         <div className="dark-green-bg padded">
-            <p className='two-thirds'>
-                Brownie candy liquorice tart gummies danish soufflé. Brownie wafer gummi bears macaroon jelly-o pastry sesame snaps chupa chups wafer. Pie tiramisu bear claw topping cupcake cotton candy donut chupa chups. Fruitcake carrot cake candy marshmallow chocolate cake. Candy canes sugar plum dragée jelly-o cookie candy. Dragée gummies bonbon chocolate bar jelly macaroon cupcake danish. Donut dessert cheesecake sesame snaps oat cake caramels chupa chups danish cake. Brownie cake sesame snaps icing lollipop macaroon chupa chups oat cake candy canes. Oat cake jelly beans jelly beans jujubes lemon drops jelly beans. Bear claw gingerbread sweet roll sesame snaps oat cake candy canes pudding macaroon danish. Biscuit wafer topping icing icing pastry chocolate donut pastry. Gingerbread chocolate sweet roll pudding shortbread jelly beans.
-            </p>
+            <div className='two-thirds'>
+                <h1 className='orange-block'>About</h1>
+                <p>
+                    Just call me the digital da Vinci - a full-stack software engineer skilled at transforming creative concepts into finely-tuned, functional web apps through meticulously crafted code. With a background in graphic design and years spent bringing order to the chaos of veterinary clinics, I've developed a knack for managing complexity with efficiency and creative problem-solving.
+                </p>
+                <p>
+                    My toolkit? React for off-the-hook user interfaces, Flask for robust backend logic, and an overarching philosophy that celebrates purposeful design, seamless performance, and maybe an expertly-timed pun (sorry not sorry).
+                </p>
+                <p>
+                    While I thrive on envisioning and executing digital experiences that inspire human connection, my creative talents extend beyond the screen. You can find me being a total foodie in the kitchen, or attempting to convince my temperamental houseplants that yes, I totally have a green thumb.
+
+                </p>
+                <p>
+                    At my core, I'm a skilled communicator and collaborator who efficiently transforms new challenges into refined solutions. I live for those "aha" moments when an insight blossoms into functional, beautiful code that people genuinely enjoy using.
+                </p>
+                <div id="tech-box" className='orange-accent'>
+                    <span className='tech'><SiCss3 /></span>
+                    <span className='tech'><SiJavascript /></span>
+                    <span className='tech'><FaReact /></span>
+                    <span className='tech'><FaPython /></span>
+                    <span className='tech'><SiFlask /></span>
+                </div>
+            </div>
         </div>
     </>
   )

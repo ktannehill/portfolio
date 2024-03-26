@@ -5,7 +5,7 @@ import { IoMoon } from "react-icons/io5";
 const Header = () => {
   return (
     <div id="header">
-      <h3>KT</h3>
+      <h3 className='orange-block'>KT</h3>
       <ul>
         <li>
           <a href="">
