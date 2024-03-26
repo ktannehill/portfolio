@@ -19,7 +19,7 @@ const About = () => {
                 <h2>Hi, I'm</h2>
                 <h1 className='orange-block'>Kat Tannehill</h1>
                 <h3>
-                    Creative coder extraordinaire bridging aesthetic vision with programming prowess. Full-stack React/Flask artist crafting intuitive web experiences with purposeful design (and puns).
+                    Full-stack software artist blending creative vision with React/Flask skills. Crafting intuitive web experiences through purposeful design (and puns).
                 </h3>
             </div>
         </div>

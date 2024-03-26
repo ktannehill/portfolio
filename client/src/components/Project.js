@@ -1,8 +1,17 @@
 import React from 'react'
 
-const Project = () => {
+const Project = ({ proj }) => {
+  const { image, title, summary } = proj
+
+
   return (
-    <div>Project</div>
+    <div className='card'>
+      <img src={image} alt={title} />
+      <div className='details'>
+        <h2>{title}</h2>
+        <p>{summary}</p>
+      </div>
+    </div>
   )
 }
 
