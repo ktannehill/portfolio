@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Project = () => {
+const Project = ({ proj }) => {
+  const { id, image, title, description, tech } = proj
+
   return (
-    <div>Project</div>
+    <div>
+      
+    </div>
   )
 }
 
