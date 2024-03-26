@@ -133,14 +133,16 @@ code {
 /*! Main Section */
 
 .box {
-  width: 80%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   margin: auto;
-  padding: 3rem 0;
   justify-content: center;
   align-items: center;
+}
+
+.box div {
+  flex-grow: 1;
 }
 
 #main-img {
@@ -157,38 +159,6 @@ code {
 
 #blurb {
   width: 100%;
-}
-
-@media (min-width: 50rem) {
-  .box {
-    width: 80%;
-    flex-direction: row;
-    gap: 3rem;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #header li {
-    padding: 0 2rem;
-  }
-
-  .details {
-    padding: 0 6rem;
-  }
-}
-
-@media (min-width: 75rem) {
-  .box {
-    width: 66%;
-    flex-direction: row;
-    gap: 3rem;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .two-thirds {
-    width: 66%;
-  }
 }
 
 #tech-box {
@@ -239,13 +209,13 @@ a {
   cursor: pointer;
 }
 
-a.link-effect {
+.link-effect {
   position: relative;
   display: inline-block;
   z-index: 100;
 }
 
-a.link-effect::before, a.link-effect::after {
+.link-effect::before, .link-effect::after {
   content: "";
   width: 48%;
   position: absolute;
@@ -255,30 +225,30 @@ a.link-effect::before, a.link-effect::after {
   z-index: -1;
 }
 
-a.link-effect::before {
+.link-effect::before {
   background: var(--dark-orange-1);
   left: 5%;
   transform: translateY(3px);
 }
 
-a.link-effect::after {
+.link-effect::after {
   background: var(--dark-orange-2);
   left: 48%;
   transform: translateY(-3px);
 }
 
-a.link-effect:hover::before, a.link-effect:hover::after {
-  background-color: var(--dark-orange-2);
+.link-effect:hover::before, .link-effect:hover::after {
+  background: var(--dark-orange-2);
   transition: 0.5s;
 }
 
-a.link-effect:hover::before {
-  background-color: var(--dark-orange-2);
+.link-effect:hover::before {
+  background: var(--dark-orange-2);
   transform: translateY(0px);
 }
 
-a.link-effect:hover::after {
-  background-color: var(--dark-orange-2);
+.link-effect:hover::after {
+  background: var(--dark-orange-2);
   transform: translateY(0px);
 }
 
@@ -334,12 +304,106 @@ a.link-effect:hover::after {
 
 /*! Contact */
 
+.rev-box {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
 .icon {
   font-size: 120%;
   margin: 0.5rem;
 }
 
+.contact-links {
+  margin: 0;
+  padding: 1rem 0;
+}
+
 .contact-links:hover, .contact-links:hover a {
   color: var(--light-orange-2);
   cursor: pointer;
+}
+
+#form-container {
+  width: 100%;
+  max-width: 800px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#form-container label {
+  font-size: 80%;
+  display: block;
+}
+
+#form-container label input, #form-container textarea {
+  display: block;
+  width: 90%;
+  padding: 0.5rem;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+input:focus, textarea:focus {
+  outline: 1px solid var(--dark-orange-2);
+  box-shadow: 4px 4px 0px var(--dark-orange-2);
+  border: none;
+}
+
+button {
+  border: none;
+  font-size: 120%;
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--cream);
+  text-decoration: none;
+  cursor: pointer;
+  width: fit-content;
+  margin: 1rem;
+}
+
+/*! Media Queries */
+
+@media (min-width: 50rem) {
+  .box {
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #header li {
+    padding: 0 2rem;
+  }
+
+  .details {
+    padding: 0 6rem;
+  }
+
+  .rev-box {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #form-container {
+    width: 66%;
+  }
+}
+
+@media (min-width: 75rem) {
+  .box {
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .two-thirds {
+    width: 66%;
+  }
 }

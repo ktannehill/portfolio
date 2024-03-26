@@ -11,7 +11,7 @@ import { SiCss3 } from "react-icons/si";
 const About = () => {
   return (
     <>
-        <div className='box'>
+        <div className='box padded two-thirds'>
             <div id='main-img'>
                 <img src={headshot} alt="Hi, I'm Kat!" />
             </div>
