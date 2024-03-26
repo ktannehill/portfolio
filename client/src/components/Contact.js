@@ -11,7 +11,9 @@ const Contact = () => {
     <div id="loc-contact" className='dark-green-bg'>
         <div className='two-thirds padded'>
             <h1 className='orange-block'>Contact</h1>
-            <p>See something you like? Have questions or suggestions? Feel free to reach out!</p>
+            <p>
+                Like what you see? If you have a potential web project brewing or just want to chat all things coding and design, don't hesitate to reach out. I'm an open book for questions, feedback, or even random discussion topics!
+            </p>
         
             <div className='box'>
                 <div className='rev-box'>

@@ -86,6 +86,16 @@ code {
   transition: 0.5s;
 }
 
+#header h3::after {
+  content: "KT";
+  color: var(--dark-green-2);
+  top: 10%;
+  left: 10%;
+  bottom: 5%;
+  position: absolute;
+  z-index: -1;
+}
+
 .orange-block {
   transition: 0.5s;
   position: relative;
@@ -321,7 +331,7 @@ a {
 }
 
 .contact-links:hover, .contact-links:hover a {
-  color: var(--light-orange-2);
+  color: var(--dark-orange-1);
   cursor: pointer;
 }
 
@@ -337,6 +347,7 @@ a {
 #form-container label {
   font-size: 80%;
   display: block;
+  color: var(--dark-orange-1);
 }
 
 #form-container label input, #form-container textarea {
