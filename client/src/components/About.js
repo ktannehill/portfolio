@@ -17,7 +17,7 @@ const About = () => {
             </div>
             <div id='blurb'>
                 <h2>Hi, I'm</h2>
-                <h1>Kat Tannehill</h1>
+                <h1 className='orange-block'>Kat Tannehill</h1>
                 <h3>
                     Creative coder extraordinaire bridging aesthetic vision with programming prowess. Full-stack React/Flask artist crafting intuitive web experiences with purposeful design (and puns).
                 </h3>
@@ -25,7 +25,7 @@ const About = () => {
         </div>
         <div className="dark-green-bg padded">
             <div className='two-thirds'>
-                <h1>About</h1>
+                <h1 className='orange-block'>About</h1>
                 <p>
                     Just call me the digital da Vinci - a full-stack software engineer skilled at transforming creative concepts into finely-tuned, functional web apps through meticulously crafted code. With a background in graphic design and years spent bringing order to the chaos of veterinary clinics, I've developed a knack for managing complexity with efficiency and creative problem-solving.
                 </p>
@@ -39,6 +39,13 @@ const About = () => {
                 <p>
                     At my core, I'm a skilled communicator and collaborator who efficiently transforms new challenges into refined solutions. I live for those "aha" moments when an insight blossoms into functional, beautiful code that people genuinely enjoy using.
                 </p>
+                <div id="tech-box" className='orange-accent'>
+                    <span className='tech'><SiCss3 /></span>
+                    <span className='tech'><SiJavascript /></span>
+                    <span className='tech'><FaReact /></span>
+                    <span className='tech'><FaPython /></span>
+                    <span className='tech'><SiFlask /></span>
+                </div>
             </div>
         </div>
     </>
