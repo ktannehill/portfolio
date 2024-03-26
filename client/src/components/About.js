@@ -6,12 +6,12 @@ import { FaPython } from "react-icons/fa";
 import { SiFlask } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 
-const SKILLS = ["React", "JavaScript", "Python", "SQL", "Flask"]
+// const SKILLS = ["React", "JavaScript", "Python", "SQL", "Flask"]
 
 const About = () => {
   return (
     <>
-        <div id='box'>
+        <div className='box padded two-thirds'>
             <div id='main-img'>
                 <img src={headshot} alt="Hi, I'm Kat!" />
             </div>
@@ -23,7 +23,7 @@ const About = () => {
                 </h3>
             </div>
         </div>
-        <div className="dark-green-bg padded">
+        <div id="loc-about" className="dark-green-bg padded">
             <div className='two-thirds'>
                 <h1 className='orange-block'>About</h1>
                 <p>
