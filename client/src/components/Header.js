@@ -15,12 +15,9 @@ const Header = () => {
       <h3 className='orange-block'><Link to="/">KT</Link></h3>
       <ul>
         <li>
-          <button onClick={handleGoToAbout} className='link-effect'>
+          <Link to="/#loc-about" className='link-effect'>
             About
-          </button>
-          {/* <Link to="/#loc-about" className='link-effect'>
-            About
-          </Link> */}
+          </Link>
         </li>
         <li>
           <Link to="/#loc-projects" className='link-effect'>
