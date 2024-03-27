@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaMedium } from "react-icons/fa";
+import { FaMedium } from "react-icons/fa6";
 import { IoDocumentTextSharp } from "react-icons/io5";
 import resume from "../assets/documents/resume_kat_tannehill.pdf"
 import EmailForm from './EmailForm';

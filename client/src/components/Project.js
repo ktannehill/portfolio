@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Project = ({ proj }) => {
-  const { image, title, summary } = proj
+  const { id, image, title, summary } = proj
 
 
   return (
@@ -10,6 +11,11 @@ const Project = ({ proj }) => {
       <div className='details'>
         <h2>{title}</h2>
         <p>{summary}</p>
+
+        <Link to={`/project/${id}`}>
+          <button className='green-block'>More</button>
+        </Link>
+
       </div>
     </div>
   )

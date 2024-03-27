@@ -6,25 +6,23 @@ import { FaPython } from "react-icons/fa";
 import { SiFlask } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 
-// const SKILLS = ["React", "JavaScript", "Python", "SQL", "Flask"]
-
 const About = () => {
   return (
     <>
-        <div className='box padded two-thirds'>
-            <div id='main-img'>
+        <section className='box padded two-thirds'>
+            <aside id='main-img'>
                 <img src={headshot} alt="Hi, I'm Kat!" />
-            </div>
-            <div id='blurb'>
+            </aside>
+            <main id='blurb'>
                 <h2>Hi, I'm</h2>
                 <h1 className='orange-block'>Kat Tannehill</h1>
                 <h3>
                     Full-stack software artist blending creative vision with React/Flask skills. Crafting intuitive web experiences through purposeful design (and puns).
                 </h3>
-            </div>
-        </div>
-        <div id="loc-about" className="dark-green-bg padded">
-            <div className='two-thirds'>
+            </main>
+        </section>
+        <section id="loc-about" className="dark-green-bg padded">
+            <main className='two-thirds'>
                 <h1 className='orange-block'>About</h1>
                 <p>
                     Just call me the digital da Vinci - a full-stack software engineer skilled at transforming creative concepts into finely-tuned, functional web apps through meticulously crafted code. With a background in graphic design and years spent bringing order to the chaos of veterinary clinics, I've developed a knack for managing complexity with efficiency and creative problem-solving.
@@ -39,15 +37,15 @@ const About = () => {
                 <p>
                     At my core, I'm a skilled communicator and collaborator who efficiently transforms new challenges into refined solutions. I live for those "aha" moments when an insight blossoms into functional, beautiful code that people genuinely enjoy using.
                 </p>
-                <div id="tech-box" className='orange-accent'>
+                <aside id="tech-box" className='orange-accent'>
                     <span className='tech'><SiCss3 /></span>
                     <span className='tech'><SiJavascript /></span>
                     <span className='tech'><FaReact /></span>
                     <span className='tech'><FaPython /></span>
                     <span className='tech'><SiFlask /></span>
-                </div>
-            </div>
-        </div>
+                </aside>
+            </main>
+        </section>
     </>
   )
 }
