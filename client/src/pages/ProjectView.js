@@ -18,16 +18,27 @@ ProjectView = () => {
     }
   }, [id])
 
+  const { image, title, description, tech } = currProj
+
+  console.log(description)
+
+  // const mapped_tech = tech.map(para => (<p>{para}</p>))
+  const mapped_desc = description.map(para => (<p>{para}</p>))
+
   return (
-    <div className='two-thirds padded'>
-        {/* <h1 className='orange-block'>{title}</h1>
-        <div>
+    <section className='padded'>
+      <div className='two-thirds'>
+        <h1 className='orange-block'>{title}</h1>
+        <aside className='card-view padded'>
           <img src={image} alt={title} />
-        </div> */}
-        <div className='dark-green-bg padded'>
-          {/* {mapped_desc} */}
+        </aside>
+      </div>
+      <main className='dark-green-bg'>
+        <div className='two-thirds padded'>
+          {mapped_desc}
         </div>
-    </div>
+      </main>
+    </section>
   )
 }
 
