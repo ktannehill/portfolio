@@ -1,26 +1,33 @@
 import React from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 // import { MdSunny } from "react-icons/md";
 // import { IoMoon } from "react-icons/io5";
 
 const Header = () => {
+  // const navigate = useNavigate()
+
+  const handleGoToAbout = () => {
+    window.location.href = '/#about'
+  };
+
   return (
     <div id="header">
-      <h3 className='orange-block'><a href="#loc-home">KT</a></h3>
+      <h3 className='orange-block'><Link to="/">KT</Link></h3>
       <ul>
         <li>
-          <a href="#loc-about" className='link-effect'>
+          <Link to="/#loc-about" className='link-effect'>
             About
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#loc-projects" className='link-effect'>
+          <Link to="/#loc-projects" className='link-effect'>
             Projects
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#loc-contact" className='link-effect'>
+          <Link to="/#loc-contact" className='link-effect'>
             Contact
-          </a>
+          </Link>
         </li>
         {/* <li>
           <MdSunny />

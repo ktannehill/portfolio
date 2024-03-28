@@ -30,7 +30,7 @@ const EmailForm = () => {
                 <input type="email" name="user_email" />
             </label>
             <label htmlFor='message'>Message
-                <textarea name="message" autosize />
+                <textarea name="message" />
             </label>
             <button type="submit" className='link-effect'>Submit</button>
         </form>

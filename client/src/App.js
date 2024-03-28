@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ScrollToAnchor from "./components/ScrollToAnchor";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Outlet />
       </div>
       <Footer />
+      <ScrollToAnchor />
     </div>
   );
 }
