@@ -33,6 +33,7 @@ code {
 #flex {
   display: flex;
   flex-flow: column;
+  min-height: 100vh;
   height: 100%;
   width: 100%;
   background-image: url("https://images.unsplash.com/photo-1612485222394-376d81a3e829?q=80&w=2046&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
@@ -51,10 +52,12 @@ code {
 
 #container {
   width: 100%;
+  padding: 3rem 0;
 }
 
 .dark-green-bg {
   background-color: var(--dark-green-2);
+  margin: 3rem 0;
 }
 
 .two-thirds {
@@ -62,9 +65,9 @@ code {
   margin: auto;
 }
 
-.padded {
+/* .padded {
   padding: 3rem 0;
-}
+} */
 
 /*! Header/ Footer */
 
@@ -94,54 +97,6 @@ code {
   bottom: 5%;
   position: absolute;
   z-index: -1;
-}
-
-.orange-block {
-  transition: 0.5s;
-  position: relative;
-  display: inline-block;
-  z-index: 100;
-}
-
-.orange-block::before {
-  content: "";
-  width: 120%;
-  position: absolute;
-  transition: 0.5s;
-  top: 30%;
-  bottom: 5%;
-  transform: translateX(5%);
-  z-index: -1;
-  background: var(--dark-orange-1);
-}
-
-.orange-block:hover::before {
-  top: 20%;
-  background: var(--dark-orange-2);
-}
-
-.green-block {
-  transition: 0.5s;
-  position: relative;
-  display: inline-block;
-  z-index: 100;
-}
-
-.green-block::before {
-  content: "";
-  width: 120%;
-  position: absolute;
-  transition: 0.5s;
-  top: 30%;
-  bottom: 5%;
-  transform: translateX(5%);
-  z-index: -1;
-  background: var(--dark-green-2);
-}
-
-.green-block:hover::before {
-  top: 20%;
-  background: var(--dark-green-1);
 }
 
 #header ul {
@@ -237,6 +192,54 @@ code {
 
 ::selection {
   background: var(--dark-orange-2);
+}
+
+h1, .orange-block {
+  transition: 0.5s;
+  position: relative;
+  display: inline-block;
+  z-index: 100;
+}
+
+h1::before, .orange-block::before {
+  content: "";
+  width: 120%;
+  position: absolute;
+  transition: 0.5s;
+  top: 30%;
+  bottom: 5%;
+  transform: translateX(5%);
+  z-index: -1;
+  background: var(--dark-orange-1);
+}
+
+h1:hover::before, .orange-block:hover::before {
+  top: 20%;
+  background: var(--dark-orange-2);
+}
+
+.green-block {
+  transition: 0.5s;
+  position: relative;
+  display: inline-block;
+  z-index: 100;
+}
+
+.green-block::before {
+  content: "";
+  width: 120%;
+  position: absolute;
+  transition: 0.5s;
+  top: 30%;
+  bottom: 5%;
+  transform: translateX(5%);
+  z-index: -1;
+  background: var(--dark-green-2);
+}
+
+.green-block:hover::before {
+  top: 20%;
+  background: var(--dark-green-1);
 }
 
 a {

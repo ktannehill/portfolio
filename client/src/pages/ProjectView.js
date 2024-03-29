@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import PROJECTS from "../assets/data/data"
 
-const 
-ProjectView = () => {
+const ProjectView = () => {
   const { id } = useParams()
   const navigate = useNavigate()
   const [currProj, setCurrProj] = useState({})
@@ -47,5 +46,4 @@ ProjectView = () => {
   )
 }
 
-export default 
-ProjectView
+export default ProjectView
