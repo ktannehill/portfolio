@@ -6,7 +6,7 @@ import ScrollToAnchor from "./components/ScrollToAnchor";
 function App() {
   return (
     <div id="flex">
-      <Header id="loc-home" />
+      <Header />
       <div id="outlet">
         <Outlet />
       </div>

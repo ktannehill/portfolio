@@ -1,14 +1,9 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 // import { MdSunny } from "react-icons/md";
 // import { IoMoon } from "react-icons/io5";
 
 const Header = () => {
-  // const navigate = useNavigate()
-
-  const handleGoToAbout = () => {
-    window.location.href = '/#about'
-  };
 
   return (
     <div id="header">
