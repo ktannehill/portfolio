@@ -22,8 +22,12 @@ ProjectView = () => {
 
   console.log(description)
 
-  // const mapped_tech = tech.map(para => (<p>{para}</p>))
-  const mapped_desc = description.map(para => (<p>{para}</p>))
+  const mapped_tech = tech?.map(para => (<p>{para}</p>))
+  const mapped_desc = description?.map(para => (<p>{para}</p>))
+
+  if (!currProj) {
+    return "Loading..."
+  }
 
   return (
     <section className='padded'>
@@ -35,6 +39,7 @@ ProjectView = () => {
       </div>
       <main className='dark-green-bg'>
         <div className='two-thirds padded'>
+          {mapped_tech}
           {mapped_desc}
         </div>
       </main>
