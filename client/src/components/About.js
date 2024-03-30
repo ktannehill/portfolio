@@ -13,17 +13,18 @@ const About = () => {
             <aside id='main-img'>
                 <img src={headshot} alt="Hi, I'm Kat!" />
             </aside>
-            <main id='blurb'>
+            <main>
                 <h2>Hi, I'm</h2>
-                <h1 className='orange-block'>Kat Tannehill</h1>
+                <h1>Kat Tannehill</h1>
                 <h3>
                     Full-stack software artist blending creative vision with React/Flask skills. Crafting intuitive web experiences through purposeful design (and puns).
                 </h3>
             </main>
         </section>
+        
         <section id="loc-about" className="dark-green-bg padded">
             <main className='two-thirds'>
-                <h1 className='orange-block'>About</h1>
+                <h1>About</h1>
                 <p>
                     Just call me the digital da Vinci - a full-stack software engineer skilled at transforming creative concepts into finely-tuned, functional web apps through meticulously crafted code. With a background in graphic design and years spent bringing order to the chaos of veterinary clinics, I've developed a knack for managing complexity with efficiency and creative problem-solving.
                 </p>
@@ -37,6 +38,7 @@ const About = () => {
                 <p>
                     At my core, I'm a skilled communicator and collaborator who efficiently transforms new challenges into refined solutions. I live for those "aha" moments when an insight blossoms into functional, beautiful code that people genuinely enjoy using.
                 </p>
+
                 <aside id="tech-box" className='orange-accent'>
                     <span className='tech'><SiCss3 /></span>
                     <span className='tech'><SiJavascript /></span>

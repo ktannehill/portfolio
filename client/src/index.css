@@ -52,7 +52,6 @@ code {
 
 #container {
   width: 100%;
-  padding: 3rem 0;
 }
 
 .dark-green-bg {
@@ -65,9 +64,9 @@ code {
   margin: auto;
 }
 
-/* .padded {
+.padded {
   padding: 3rem 0;
-} */
+}
 
 /*! Header/ Footer */
 
@@ -144,10 +143,6 @@ code {
   min-width: 300px;
   max-height: 600px;
   object-fit: cover;
-}
-
-#blurb {
-  width: 100%;
 }
 
 #tech-box {
@@ -297,15 +292,21 @@ a {
 
 /*! Projects */
 
+/* .card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+} */
+
 .card {
   height: 450px;
   background-color: var(--dark-green-2);
-  margin: 3rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   transition: 0.5s;
+  margin-top: 3rem;
 }
 
 .card img {
