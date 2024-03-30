@@ -7,7 +7,7 @@ const mapped_projects = PROJECTS.reverse().map(proj => <Project key={proj.id} pr
 const Projects = () => {
   return (
     <div id="loc-projects" className='two-thirds padded'>
-        <h1 className='orange-block'>Projects</h1>
+        <h1>Projects</h1>
         <div>
           {mapped_projects}
         </div>

@@ -29,19 +29,22 @@ const ProjectView = () => {
   }
 
   return (
-    <section className='padded'>
+    <section className='container padded'>
+
       <div className='two-thirds'>
-        <h1 className='orange-block'>{title}</h1>
+        <h1>{title}</h1>
         <aside className='card-view padded'>
           <img src={image} alt={title} />
         </aside>
       </div>
-      <main className='dark-green-bg'>
-        <div className='two-thirds padded'>
-          {mapped_tech}
-          {mapped_desc}
-        </div>
-      </main>
+
+        <main className='dark-green-bg padded'>
+          <div className='two-thirds'>
+            {mapped_tech}
+            {mapped_desc}
+          </div>
+        </main>
+
     </section>
   )
 }

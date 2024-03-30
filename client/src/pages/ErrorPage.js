@@ -8,7 +8,7 @@ const ErrorPage = () => {
     <div id="flex">
       <Header />
         <div id="outlet">
-          <div className='container'>
+          <div className='container padded'>
             <section className='dark-green-bg'>
               <main className='two-thirds padded'>
                 <h1 className='orange-block'>Oops!</h1>

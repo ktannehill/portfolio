@@ -8,9 +8,9 @@ import EmailForm from './EmailForm';
 
 const Contact = () => {
   return (
-    <div id="loc-contact" className='dark-green-bg'>
+    <div id="loc-contact" className="dark-green-bg">
         <div className='two-thirds padded'>
-            <h1 className='orange-block'>Contact</h1>
+            <h1>Contact</h1>
             <p>
                 Like what you see? If you have a potential web project brewing or just want to chat all things coding and design, don't hesitate to reach out. I'm an open book for questions, feedback, or even random discussion topics!
             </p>
