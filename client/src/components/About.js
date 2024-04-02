@@ -26,17 +26,20 @@ const About = () => {
             <main className='two-thirds'>
                 <h1>About</h1>
                 <p>
-                    Just call me the digital da Vinci - a full-stack software engineer skilled at transforming creative concepts into finely-tuned, functional web apps through meticulously crafted code. With a background in graphic design and years spent bringing order to the chaos of veterinary clinics, I've developed a knack for managing complexity with efficiency and creative problem-solving.
+                    It all started in the late 90s, a hyper-focused kid determined to craft the snazziest Neopets page the web had ever seen. Spoiler alert: that kid was me. Using just HTML and CSS that I picked up after school, I dove headfirst into coding and never looked back. Turns out, my thirst for creativity and insatiable curiosity were a perfect storm for a budding programmer.
                 </p>
                 <p>
-                    My toolkit? React for off-the-hook user interfaces, Flask for robust backend logic, and an overarching philosophy that celebrates purposeful design, seamless performance, and maybe an expertly-timed pun (sorry not sorry).
+                    Fast forward through a decade of veterinary adventures, where I became a pro at juggling multiple priorities, clearly communicating complex situations, and creating order from the chaos. But that itch to build rad digital stuff never quite went away. My fingers were tugging me back to the keyboard, craving the satisfaction of transforming lines of code into something beautifully functional.
                 </p>
                 <p>
-                    While I thrive on envisioning and executing digital experiences that inspire human connection, my creative talents extend beyond the screen. You can find me being a total foodie in the kitchen, or attempting to convince my temperamental houseplants that yes, I totally have a green thumb.
+                    You might think that's quite a jump, from prescribing pet meds to programming web apps, but I'm here to tell you the two actually have more in common than you'd expect. Let's just say, whether troubleshooting buggy code or diagnosing an sick pup, my creative problem-solving skills are top-notch. Both fields demand unshakable resilience, adaptability, and an unrelenting curiosity that leaves no stone unturned.
 
                 </p>
                 <p>
-                    At my core, I'm a skilled communicator and collaborator who efficiently transforms new challenges into refined solutions. I live for those "aha" moments when an insight blossoms into functional, beautiful code that people genuinely enjoy using.
+                    I've circled back to unleashing my tech talents and creative energies as a full-fledged software engineer. With a knack for crafting intuitive, functional web apps and nifty user experiences, I'm ready to merge my eye for design with my coding gumption. Back to my roots of combining vision with execution to build digital solutions that people genuinely enjoy using and interacting with.
+                </p>
+                <p>
+                    When I'm not stuck to my desk, you can usually find me stuck to a fantasy book, or in the kitchen attempting to satisfy my inner foodie. I can also be spotted nurturing my jungle of (overly dramatic) houseplants, pretending I have a green thumb.
                 </p>
 
                 <aside id="tech-box" className='orange-accent'>
