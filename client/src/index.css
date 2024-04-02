@@ -183,6 +183,14 @@ code {
   transform: translateY(3px);
 }
 
+#tech-list {
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+  grid-auto-columns: 1fr;
+  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+}
+
 /*! Random Styles */
 
 ::selection {

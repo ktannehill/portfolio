@@ -17,12 +17,11 @@ const ProjectView = () => {
     }
   }, [id])
 
-  const { image, title, description, tech } = currProj
+  const { image, title, link, highlights, description, tech } = currProj
 
-  console.log(description)
-
-  const mapped_tech = tech?.map(para => (<p>{para}</p>))
-  const mapped_desc = description?.map(para => (<p>{para}</p>))
+  const mapped_tech = tech?.map(para => (<li key={para}>{para}</li>))
+  const mapped_HL = highlights?.map(para => (<li key={para}>{para}</li>))
+  const mapped_desc = description?.map(para => (<p key={para}>{para}</p>))
 
   if (!currProj) {
     return "Loading..."
@@ -35,12 +34,26 @@ const ProjectView = () => {
         <h1>{title}</h1>
         <aside className='card-view padded'>
           <img src={image} alt={title} />
+          <p><a href={link} target="_blank" rel="noopener noreferrer" className='link-effect'>
+            GitHub
+          </a></p>
         </aside>
       </div>
 
         <main className='dark-green-bg padded'>
           <div className='two-thirds'>
-            {mapped_tech}
+            <ul id="tech-list" className='orange-accent'>
+              {mapped_tech}
+            </ul>
+
+            <div className='padded'>
+              <h2>Highlights</h2>
+              <ul>
+                {mapped_HL}
+              </ul>
+            </div>
+
+            <h2>The Making Of</h2>
             {mapped_desc}
           </div>
         </main>

@@ -36,7 +36,7 @@ const About = () => {
 
                 </p>
                 <p>
-                    I've circled back to unleashing my tech talents and creative energies as a full-fledged software engineer. With a knack for crafting intuitive, functional web apps and nifty user experiences, I'm ready to merge my eye for design with my coding gumption. Back to my roots of combining vision with execution to build digital solutions that people genuinely enjoy using and interacting with.
+                    I've circled back to unleashing my tech talents and creative energies as a full-fledged software engineer. With a knack for crafting intuitive, functional web apps and nifty user experiences, I'm ready to merge my eye for design with my coding gumption. Back to my roots of combining vision with execution to build digital solutions that people genuinely enjoy using.
                 </p>
                 <p>
                     When I'm not stuck to my desk, you can usually find me stuck to a fantasy book, or in the kitchen attempting to satisfy my inner foodie. I can also be spotted nurturing my jungle of (overly dramatic) houseplants, pretending I have a green thumb.

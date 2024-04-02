@@ -62,14 +62,22 @@ const PROJECTS = [
         'image': project5,
         'title': 'Paws-ibilities Rescue',
         'summary': "Empower volunteers, connect pets, and make a difference! Explore adoptable pets, sign up for events, and foster meaningful connections with this full-stack web app. Join us in creating paw-sitive impacts, one rescue at a time.",
+        "link": "https://github.com/ktannehill/pawsibilitiesRescue",
+        "highlights": [
+            "Streamlined user interactions with easy-to-use forms and error handling, powered by Formik and Yup.",
+            "Enhanced user experience with smooth navigation and seamless data management, utilizing Redux state management.",
+            "Ensured data integrity and security with robust backend validations implemented using Marshmallow.",
+            "Improved user engagement through automated email notifications for account verification and event updates, integrated via Flask-Mail.",
+            "Committed to best coding practices, following principles of efficiency and maintainability with adherence to DRY and SOLID principles."
+        ],
         'description': [
-            "As a long-time animal lover who spent years working in vet clinics, I wanted to combine my passions for pets and coding into one epic project. With my family's heavy involvement in pet rescues providing ample inspiration, I decided to create a full-stack web app to connect volunteers with rescue fur-babies and adoption events.", 
+            "As a long-time animal lover who spent years working in vet clinics, I wanted to combine my passions for pets and coding into one nifty project. With my family's heavy involvement in pet rescues providing ample inspiration, I decided to create a full-stack web app to connect volunteers with rescue fur-babies and adoption events.", 
             "For my final solo capstone project at Flatiron, I needed to implement a Flask/SQLAlchemy backend with complex database relationships, build a React frontend with routing and state management, integrate full CRUD functionality following RESTful conventions, and integrating new technologies beyond the curriculum. Rather than just checking boxes, I channeled my creative vision into a compelling concept.", 
             "I dreamed up Paw-sibilities Rescue - and I had just three weeks to design, develop and deploy this full-stack application from the ground up. To tackle this, I first meticulously architected a multi-model SQLAlchemy database with a robust many-to-many relationship seamlessly managing volunteer registrations across events.", 
-            "On the frontend, I constructed an intuitive React interface with client-side routing and Redux state management between components. But I wanted to exceed the basic specs and unleash my full creativity.", 
+            "On the frontend, I constructed a snazzy React interface with client-side routing and Redux state management between components. But I wanted to exceed the basic specs and unleash my full creativity.", 
             "By independently integrating Flask-Mail, I enabled automated email communications for user verification and event notifications - a self-taught feature significantly enhancing engagement. I also implemented thorough Marshmallow data validation and error handling throughout.", 
             "The result was the successful launch of Paw-sibilities Rescue to rave reviews praising the responsive design and robust features uniting the pet rescue community. This allowed me to showcase not just my full-stack talents, but also my drive to create purposeful applications that have a positive real-world impact.", 
-            "And I'm just getting started! I'm envisioning enhancements like password resets, foster request flows, and bulletproof authentication. Because if coding can help more rescue pets find forever homes, you can bet I'm ready to recruit my technical wizardry for that cause."
+            "And I'm just getting started! I'm envisioning enhancements like password resets, foster request flows, and bulletproof authentication. Because if coding can help more rescue pets find forever homes, you can bet I'm ready to recruit my technical savviness for that cause."
         ],
         'tech': [
             "React", "Redux", "JavaScript (ES6+)", "React Router", "Material-UI (MUI)", "HTML/CSS", "Node.js", "Flask", "SQLAlchemy", "Marshmallow", "Flask-Mail", "bcrypt", "SQLite", "PostgreSQL", "Mailtrap", "Render"
