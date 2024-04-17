@@ -13,8 +13,10 @@ const Project = ({ proj }) => {
         <h2>{title}</h2>
         <p>{summary}</p>
 
-        <Link to={`/project/${id}`}>
-          <button className='green-block'>More</button>
+        <Link to={`/project/${id}/#top`}>
+          <button className='green-block'>
+            More
+          </button>
         </Link>
 
       </div>

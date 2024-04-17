@@ -8,8 +8,8 @@ const EmailForm = () => {
         e.preventDefault();
     
         emailjs
-            .sendForm('service_cum5weo', 'YOUR_TEMPLATE_ID', form.current, {
-                publicKey: 'YOUR_PUBLIC_KEY',
+            .sendForm('service_cum5weo', 'contact_form', form.current, {
+                publicKey: '',
             })
             .then(
                 () => {
@@ -19,18 +19,19 @@ const EmailForm = () => {
                     console.log('FAILED...', error.text);
                 },
             );
+        e.target.reset()
     };
   
     return (
         <form ref={form} onSubmit={sendEmail} id="form-container">
             <label htmlFor='name'>Name
-                <input type="text" name="user_name" />
+                <input type="text" name="from_name" required />
             </label>
             <label htmlFor='email'>Email
-                <input type="email" name="user_email" />
+                <input type="email" name="from_email" required/>
             </label>
             <label htmlFor='message'>Message
-                <textarea name="message" />
+                <textarea name="message" required/>
             </label>
             <button type="submit" className='link-effect'>Submit</button>
         </form>
