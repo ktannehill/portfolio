@@ -26,10 +26,10 @@ const About = () => {
             <main className='two-thirds'>
                 <h1>About</h1>
                 <p>
-                    It all started in the late 90s, a hyper-focused kid determined to craft the snazziest Neopets page the web had ever seen. Spoiler alert: that kid was me. Using just HTML and CSS that I picked up after school, I dove headfirst into coding and never looked back. Turns out, my thirst for creativity and insatiable curiosity were a perfect storm for a budding programmer.
+                    It all started in the late 90s, a hyper-focused kid determined to craft the snazziest Neopets page the web had ever seen. Spoiler alert: that kid was me. Using just HTML and CSS that I picked up after school, I dove headfirst into coding. Turns out, my thirst for creativity and insatiable curiosity were a perfect storm for a budding programmer.
                 </p>
                 <p>
-                    Fast forward through a decade of veterinary adventures, where I became a pro at juggling multiple priorities, clearly communicating complex situations, and creating order from the chaos. But that itch to build rad digital stuff never quite went away. My fingers were tugging me back to the keyboard, craving the satisfaction of transforming lines of code into something beautifully functional.
+                    Fast forward through a decade of veterinary adventures where I became a pro at juggling multiple priorities, clearly communicating complex situations, and creating order from the chaos. But that itch to build rad digital stuff never quite went away. My fingers were tugging me back to the keyboard, craving the satisfaction of transforming lines of code into something beautifully functional.
                 </p>
                 <p>
                     You might think that's quite a jump, from prescribing pet meds to programming web apps, but I'm here to tell you the two actually have more in common than you'd expect. Let's just say, whether troubleshooting buggy code or diagnosing an sick pup, my creative problem-solving skills are top-notch. Both fields demand unshakable resilience, adaptability, and an unrelenting curiosity that leaves no stone unturned.

@@ -46,11 +46,11 @@ code {
   margin: 0;
   padding: 0;
   flex: 1 1 auto;
-  overflow: auto;
+  /* overflow: auto; */
   background-color: rgba(40, 54, 24, 0.9);
 }
 
-#container {
+.container {
   width: 100%;
 }
 
@@ -79,13 +79,7 @@ code {
 }
 
 #header h3 {
-  color: var(--dark-green-2);
-  transition: 0.5s;
-}
-
-#header h3:hover {
-  color: var(--cream);
-  transition: 0.5s;
+  position: relative;
 }
 
 #header h3::after {
@@ -301,14 +295,9 @@ a {
 
 /*! Projects */
 
-/* .card-container {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-} */
-
 .card {
   height: 450px;
+  min-width: 350px;
   background-color: var(--dark-green-2);
   display: flex;
   justify-content: center;
@@ -323,14 +312,12 @@ a {
   width: 100%;
   height: 100%;
   opacity: 0.7;
-  object-position: top 25%;
 }
 
 .card-view img {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  object-position: top 25%;
 }
 
 .details {
