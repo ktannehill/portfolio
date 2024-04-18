@@ -13,7 +13,7 @@ const Project = ({ proj }) => {
         <h2>{title}</h2>
         <p>{summary}</p>
 
-        <Link to={`/project/${id}/#top`}>
+        <Link to={`/project/${id}`}>
           <button className='green-block'>
             More
           </button>
