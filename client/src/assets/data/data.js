@@ -9,41 +9,51 @@ const PROJECTS = [
         'id': 1,
         'image': project1,
         'title': 'Community Events Calendar',
-        'summary': 'Sweet danish cupcake halvah candy. Brownie gingerbread muffin biscuit soufflé ice cream cupcake. Soufflé jelly-o lollipop dessert cotton candy lemon drops.',
+        'summary': 'A dynamic, community-driven events calendar powered by vanilla JavaScript. Users can effortlessly browse upcoming happenings, update their RSVP status, and even create new events - all within a seamless single-page experience.',
         "link": "https://github.com/ktannehill/pawsibilitiesRescue",
         "highlights": [
-            
+            "Developed a fully functional events calendar with create, view, and RSVP functionality",
+            "Implemented JavaScript event listeners and DOM manipulation for an intuitive, interactive UI",
+            "Leveraged JSON Server for real-time data persistence and attendance tracking",
+            "Empowered users with advanced filtering and sorting capabilities to easily navigate events",
+            "Demonstrated strong collaboration and time management to deliver a polished app despite team changes"
         ],
         'description': [
-            "Dessert topping jelly tiramisu gummi bears cupcake liquorice. Pastry cake muffin bonbon sesame snaps sweet powder. Cake tiramisu gingerbread cake shortbread. Tootsie roll liquorice shortbread sweet wafer gummies gummies. Jelly bear claw macaroon liquorice marshmallow marshmallow. Muffin gingerbread chocolate bar jelly-o jelly bonbon.", 
-            "Lollipop marzipan icing pastry candy canes bonbon. Lemon drops cupcake topping jelly sugar plum. Marshmallow bonbon donut topping lollipop fruitcake cotton candy. Biscuit chocolate cake cake oat cake pie. Ice cream wafer sweet roll sesame snaps dessert tiramisu. Chocolate cake danish apple pie gummi bears marzipan.",
-            "Gingerbread ice cream chocolate cake cupcake gummies jelly dragée pastry. Tart pastry apple pie macaroon liquorice chocolate. Cheesecake danish lemon drops soufflé chocolate cake. Sweet brownie muffin bear claw candy caramels tart cotton candy.",
-            "Oat cake sesame snaps cheesecake lollipop lemon drops cake. Jujubes soufflé bear claw tart biscuit gummi bears cake bonbon fruitcake. Carrot cake gingerbread cake lollipop donut gummies cheesecake jujubes. Marshmallow candy canes gummies dragée jujubes shortbread. Toffee croissant sugar plum donut tart pie ice cream. Halvah lollipop danish chupa chups tootsie roll cupcake bonbon bonbon liquorice. Fruitcake chocolate bar icing jelly beans macaroon. Danish pastry tootsie roll liquorice cookie cupcake."
+            "During our first deep dive into JavaScript at Flatiron School, my teammate and I set out to create a single-page web app that would make it a breeze for community members to stay in the loop on upcoming events. With just a week to work our magic, we leveraged vanilla JS, DOM manipulation, and the power of JSON Server to deliver a dynamic, user-friendly calendar packed with functionality.", 
+            "As the more experienced designer of the pair, I took the lead on crafting a clean, responsive interface using CSS Grid, complete with a handy sticky header to keep navigation easy. My teammate and I then got to work fetching our events data, sorting by date, and rendering them as custom cards - allowing users to easily browse, filter, and toggle their RSVP status for each happening.",
+            "But we didn't stop there. Drawing on our newfound JavaScript skills, we implemented a suite of interactive features powered by slick event listeners. Users could dive into event details via pop-up modals, and even create their own events to share with the community. And thanks to our trusty db.json file, all of these updates were persisted in real-time, keeping our calendar fresh and up-to-date.",
+            "Though we faced the challenge of a teammate dropping the course, my partner and I pushed forward, leveraging strong communication and collaboration to deliver a polished, functional SPA that we're incredibly proud of. This project not only solidified our JavaScript prowess, but also our ability to work through adversity and ship quality products under tight timelines."
         ],
-        'tech': ['HTML', 'CSS', 'JavaScript'],
+        'tech': ['JavaScript', 'json-server', 'CSS', 'HTML'],
     },
     {
         'id': 2,
         'image': project2,
         'title': 'Puppy PlayDate',
-        'summary': 'Sweet danish cupcake halvah candy. Brownie gingerbread muffin biscuit soufflé ice cream cupcake. Soufflé jelly-o lollipop dessert cotton candy lemon drops.',
+        'summary': 'A React-powered app that puts a delightful spin on matchmaking - this time, for our four-legged friends. Puppy PlayDate connects pet owners, facilitating furry playdates and fostering joyful connections between pups and their humans.',
         "link": "https://github.com/ktannehill/pawsibilitiesRescue",
         "highlights": [
-            
+            "Developed a dynamic, reusable form component that conditionally rendered for creating new pet profiles or updating existing ones",
+            "Implemented full CRUD functionality using a JSON Server and RESTful API",
+            "Leveraged React Router to provide seamless in-app navigation for users",
+            "Integrated MUI Snackbars to deliver friendly, readable error handling",
+            "Facilitated effective communication and collaboration within the development team"
         ],
         'description': [
-            "Dessert topping jelly tiramisu gummi bears cupcake liquorice. Pastry cake muffin bonbon sesame snaps sweet powder. Cake tiramisu gingerbread cake shortbread. Tootsie roll liquorice shortbread sweet wafer gummies gummies. Jelly bear claw macaroon liquorice marshmallow marshmallow. Muffin gingerbread chocolate bar jelly-o jelly bonbon.", 
-            "Lollipop marzipan icing pastry candy canes bonbon. Lemon drops cupcake topping jelly sugar plum. Marshmallow bonbon donut topping lollipop fruitcake cotton candy. Biscuit chocolate cake cake oat cake pie. Ice cream wafer sweet roll sesame snaps dessert tiramisu. Chocolate cake danish apple pie gummi bears marzipan.",
-            "Gingerbread ice cream chocolate cake cupcake gummies jelly dragée pastry. Tart pastry apple pie macaroon liquorice chocolate. Cheesecake danish lemon drops soufflé chocolate cake. Sweet brownie muffin bear claw candy caramels tart cotton candy.",
-            "Oat cake sesame snaps cheesecake lollipop lemon drops cake. Jujubes soufflé bear claw tart biscuit gummi bears cake bonbon fruitcake. Carrot cake gingerbread cake lollipop donut gummies cheesecake jujubes. Marshmallow candy canes gummies dragée jujubes shortbread. Toffee croissant sugar plum donut tart pie ice cream. Halvah lollipop danish chupa chups tootsie roll cupcake bonbon bonbon liquorice. Fruitcake chocolate bar icing jelly beans macaroon. Danish pastry tootsie roll liquorice cookie cupcake."
+            "During a fast-paced, one-week project sprint, my team and I set out to create a dynamic single-page application using React, React Router, and JSON Server. We decided to develop a fun dog socialization platform inspired by the beloved (or not) dating app, Tinder.", 
+            "With the project requirements in hand, we got to work building out our vision for what we dubbed Puppy PlayDate. The goal was to leverage React and React Router to craft a seamless, engaging user experience where pet owners could create profiles for their furry friends, browse potential playmates, and manage their matches with ease. And of course, we had to make sure to implement GET and POST functionality using our JSON Server.",
+            "As part of the development team, I contributed to various aspects of bringing Puppy PlayDate to life. One of the areas I really focused on was designing and implementing a dynamic, reusable form component. This bad boy could conditionally render, allowing owners to create brand new pet profiles or quickly update existing ones, while smoothly handling all the necessary POST and PATCH requests to our API.",
+            "Additionally, when communication challenges arose within the team, I took it upon myself to facilitate collaborative discussions, ensuring everyone's contributions were heard and valued. With the support of my peers, I also integrated some handy MUI Snackbars for providing friendly, readable error handling - no confusing error messages here!",
+            "Through our collective efforts, we successfully delivered a robust, polished dog socialization application that exceeded expectations. By going above and beyond by incorporating full CRUD functionality, we created a truly engaging user experience. The final presentation of our project was a hit, impressing both our peers and instructor with its technical oompf and fun, user-friendly execution.",
+            "This project provided invaluable insights into effective communication and collaboration, reinforcing the importance of maintaining a supportive, productive team dynamic - even when the timeline is tight. I'm proud of what we accomplished and grateful for the opportunity to work alongside such a talented group."
         ],
-        'tech': ['HTML', 'CSS', 'JavaScript', 'React', 'MUI'],
+        'tech': ['React', 'React Router', 'JavaScript', 'Material-UI (MUI)', 'bcrypt', 'Yup', 'json-server', 'CSS'],
     },
     {
         'id': 3,
         'image': project3,
         'title': 'The Zen of Jeopardy',
-        'summary': 'CLI game that brings the excitement and challenge of the classic TV show Jeopardy to your terminal. Experience the thrill of answering questions, selecting categories, and keeping score, all within the comfort of your command line interface. Perfect for trivia enthusiasts and those looking to test their knowledge in a fun and interactive way!',
+        'summary': 'Experience the thrill of the classic TV game show Jeopardy, now brought to life in your command line interface! Test your knowledge, select categories, and keep score as you navigate this interactive trivia adventure.',
         "link": "https://github.com/zachtalmadge/the-zen-of-jeopardy",
         "highlights": [
             "Recreate the excitement and challenge of the iconic game show Jeopardy in a Command Line Interface (CLI) format.",
@@ -64,7 +74,7 @@ const PROJECTS = [
         'id': 4,
         'image': project4,
         'title': 'CovenCraft',
-        'summary': 'Step into the mystical world of Covencraft, a vibrant social platform where witches gather to explore magickal crafts and forge connections. Discover an array of enchanting creations, save your favorites, and join a community united by creativity and camaraderie.',
+        'summary': 'Discover an enchanting world where witches gather to explore magickal crafts and forge connections. Save your favorite creations and join a community united by creativity and camaraderie.',
         "link": "https://github.com/Reilly-737/CovenCraft",
         "highlights": [
             "Engineered Flask-SQLAlchemy backend for efficient data management and RESTful routes.",
@@ -83,7 +93,7 @@ const PROJECTS = [
             "Looking ahead, our roadmap includes implementing a commenting system to inspire collaboration, as well as empowering witches to share their own creations with the whole community. With an emphasis on inclusive, positive moderation practices, we're committed to nurturing an enriching environment where all feel welcome."
         ],
         'tech': [
-            'React', 'Python', 'Flask-SQLAlchemy', 'Formik', 'Yup', 'bcrypt', 'React Router', 'JavaScript (ES6+)', 'CSS (Flexbox, Grid)'
+            'React', 'Python', 'Flask-SQLAlchemy', 'Formik', 'Yup', 'bcrypt', 'React Router', 'JavaScript', 'CSS (Flexbox, Grid)'
         ],
     },
     {
@@ -109,7 +119,7 @@ const PROJECTS = [
             "And I'm just getting started! I'm envisioning enhancements like password resets, foster request flows, and bulletproof authentication. Because if coding can help more rescue pets find forever homes, you can bet I'm ready to recruit my technical savviness for that cause."
         ],
         'tech': [
-            "React", "Flask-SQLAlchemy", "Redux", "Marshmallow", "Flask-Mail", "Mailtrap", "PostgreSQL", "Render", "React Router", "bcrypt", "JavaScript (ES6+)", "Material-UI (MUI)", "HTML/CSS", "Node.js"
+            "React", "Flask-SQLAlchemy", "Redux", "Marshmallow", "Flask-Mail", "Mailtrap", "PostgreSQL", "Render", "React Router", "bcrypt", "JavaScript", "Material-UI (MUI)", "HTML/CSS", "Node.js"
         ],
     }
 ]

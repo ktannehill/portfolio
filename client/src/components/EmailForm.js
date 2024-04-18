@@ -5,6 +5,9 @@ import env from "react-dotenv";
 const service_id = env.REACT_APP_email_service_id
 const public_key = env.REACT_APP_email_public_key
 
+console.log(service_id)
+console.log(public_key)
+
 const EmailForm = () => {
     const form = useRef();
 
