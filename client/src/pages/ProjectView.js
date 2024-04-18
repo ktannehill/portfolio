@@ -8,6 +8,12 @@ const ProjectView = () => {
   const [currProj, setCurrProj] = useState({})
 
   useEffect(() => {
+    document
+      .getElementById("header")
+      ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, [])
+
+  useEffect(() => {
     const filtered_proj = PROJECTS.find(proj => proj.id === +id)
 
     setCurrProj(filtered_proj)

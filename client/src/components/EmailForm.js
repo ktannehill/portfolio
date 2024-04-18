@@ -1,5 +1,12 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
+import env from "react-dotenv";
+
+const service_id = env.REACT_APP_email_service_id
+const public_key = env.REACT_APP_email_public_key
+
+console.log(service_id)
+console.log(public_key)
 
 const EmailForm = () => {
     const form = useRef();
@@ -8,8 +15,8 @@ const EmailForm = () => {
         e.preventDefault();
     
         emailjs
-            .sendForm('service_cum5weo', 'contact_form', form.current, {
-                publicKey: '',
+            .sendForm(service_id, 'contact_form', form.current, {
+                publicKey: public_key,
             })
             .then(
                 () => {
