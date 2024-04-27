@@ -14,7 +14,7 @@ const About = () => {
                 <img src={headshot} alt="Hi, I'm Kat!" />
             </aside>
             <main>
-                <h2>Hi, I'm</h2>
+                <h3>Hi, I'm</h3>
                 <h1>Kat Tannehill</h1>
                 <h3>
                     Full-stack software artist blending creative vision with React/Flask skills. Crafting intuitive web experiences through purposeful design (and puns).
@@ -24,7 +24,7 @@ const About = () => {
         
         <section id="loc-about" className="dark-green-bg padded">
             <main className='two-thirds'>
-                <h1>About</h1>
+                <h2>About</h2>
                 <p>
                     It all started in the late 90s, a hyper-focused kid determined to craft the snazziest Neopets page the web had ever seen. Spoiler alert: that kid was me. Using just HTML and CSS that I picked up after school, I dove headfirst into coding. Turns out, my thirst for creativity and insatiable curiosity were a perfect storm for a budding programmer.
                 </p>
