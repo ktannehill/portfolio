@@ -32,7 +32,7 @@ const About = () => {
                     Fast forward through a decade of veterinary adventures where I became a pro at juggling multiple priorities, clearly communicating complex situations, and creating order from the chaos. But that itch to build rad digital stuff never quite went away. My fingers were tugging me back to the keyboard, craving the satisfaction of transforming lines of code into something beautifully functional.
                 </p>
                 <p>
-                    You might think that's quite a jump, from prescribing pet meds to programming web apps, but I'm here to tell you the two actually have more in common than you'd expect. Let's just say, whether troubleshooting buggy code or diagnosing an sick pup, my creative problem-solving skills are top-notch. Both fields demand unshakable resilience, adaptability, and an unrelenting curiosity that leaves no stone unturned.
+                    You might think that's quite a jump, from prescribing pet meds to programming web apps, but I'm here to tell you the two actually have more in common than you'd expect. Let's just say, whether troubleshooting buggy code or diagnosing a sick pup, my creative problem-solving skills are top-notch. Both fields demand unshakable resilience, adaptability, and an unrelenting curiosity that leaves no stone unturned.
 
                 </p>
                 <p>
