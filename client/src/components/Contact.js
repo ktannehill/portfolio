@@ -12,7 +12,7 @@ const Contact = () => {
         <div className='two-thirds padded'>
             <h1>Contact</h1>
             <p>
-                Like what you see? If you have a potential web project brewing or just want to chat all things coding and design, don't hesitate to reach out. I'm an open book for questions, feedback, or even random discussion topics!
+                Like what you see? If you have a potential web project brewing or just want to chat all things coding and design, don't hesitate to reach out. I'm an open book for questions, feedback, or sharing recipes!
             </p>
         
             <div className='box'>
