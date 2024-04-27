@@ -10,7 +10,7 @@ const Project = ({ proj }) => {
       <img src={image} alt={title} />
       
       <div className='details'>
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         <p>{summary}</p>
 
         <Link to={`/project/${id}`}>

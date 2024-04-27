@@ -192,14 +192,18 @@ code {
   background: var(--dark-orange-2);
 }
 
-h1, .orange-block {
+h1, h2, .orange-block {
   transition: 0.5s;
   position: relative;
   display: inline-block;
   z-index: 100;
 }
 
-h1::before, .orange-block::before {
+h1 {
+  font-size: 2rem;
+}
+
+h1::before, h2::before, .orange-block::before {
   content: "";
   width: 120%;
   position: absolute;
@@ -211,7 +215,7 @@ h1::before, .orange-block::before {
   background: var(--dark-orange-1);
 }
 
-h1:hover::before, .orange-block:hover::before {
+h1:hover::before, h2:hover::before, .orange-block:hover::before {
   top: 20%;
   background: var(--dark-orange-2);
 }
