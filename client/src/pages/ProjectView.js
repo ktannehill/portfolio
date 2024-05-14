@@ -21,7 +21,7 @@ const ProjectView = () => {
     if (!filtered_proj) {
       navigate("/")
     }
-  }, [id])
+  }, [id, navigate])
 
   const { image, title, link, highlights, description, tech } = currProj
 
