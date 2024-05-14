@@ -10,17 +10,17 @@ const Header = () => {
       <h3 className='orange-block'><Link to="/">KT</Link></h3>
       <ul>
         <li>
-          <Link to="/#loc-about" className='link-effect'>
+          <Link to="/#about" className='link-effect'>
             About
           </Link>
         </li>
         <li>
-          <Link to="/#loc-projects" className='link-effect'>
+          <Link to="/#projects" className='link-effect'>
             Projects
           </Link>
         </li>
         <li>
-          <Link to="/#loc-contact" className='link-effect'>
+          <Link to="/#contact" className='link-effect'>
             Contact
           </Link>
         </li>

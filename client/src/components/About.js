@@ -22,7 +22,7 @@ const About = () => {
             </main>
         </section>
         
-        <section id="loc-about" className="dark-green-bg padded">
+        <section id="about" className="dark-green-bg padded">
             <main className='two-thirds'>
                 <h2>About</h2>
                 <p>
