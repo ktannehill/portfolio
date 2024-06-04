@@ -2,6 +2,7 @@ import React from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
+// import { SiCalendly } from "react-icons/si";
 import { IoDocumentTextSharp } from "react-icons/io5";
 import resume from "../assets/documents/resume_kat_tannehill.pdf"
 import EmailForm from './EmailForm';
@@ -12,7 +13,7 @@ const Contact = () => {
         <div className='two-thirds padded'>
             <h2>Contact</h2>
             <p>
-                Like what you see? If you have a potential web project brewing or just want to chat all things coding and design, don't hesitate to reach out. I'm an open book for questions, feedback, or sharing recipes!
+                Like what you see? If you have a potential web project brewing or just want to chat all things coding and design, don't hesitate to reach out. I'm an open book for questions, feedback, or sharing recipes! Or you can schedule some 1-on-1 time on my <a href="https://calendly.com/kat-tannehill" target="_blank" rel="noopener noreferrer">Calendly</a>.
             </p>
         
             <div className='box'>
@@ -34,7 +35,7 @@ const Contact = () => {
                     <div>
                         <h3 className='contact-links'>
                             <span className='icon'><FaMedium /></span>
-                            <a href="https://medium.com/@ktannehill"target="_blank" rel="noopener noreferrer">
+                            <a href="https://medium.com/@ktannehill" target="_blank" rel="noopener noreferrer">
                                 Medium
                             </a>
                         </h3>
@@ -45,6 +46,14 @@ const Contact = () => {
                             </a>
                         </h3>
                     </div>
+                    {/* <div>
+                        <h3 className='contact-links'>
+                            <span className='icon'><SiCalendly /></span>
+                            <a href="https://calendly.com/kat-tannehill" target="_blank" rel="noopener noreferrer">
+                                Calendly
+                            </a>
+                        </h3>
+                    </div> */}
                 </div>
                 <EmailForm />
             </div>
