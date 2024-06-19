@@ -72,6 +72,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-Kat Tannehill: [katetannehill@gmail.com](mailto:katetannehill@gmail.com)
-GitHub: [https://github.com/ktannehill](https://github.com/ktannehill)
-LinkedIn: [https://www.linkedin.com/in/kat-tannehill](https://www.linkedin.com/in/kat-tannehill)
+- Kat Tannehill: [katetannehill@gmail.com](mailto:katetannehill@gmail.com)
+- GitHub: [https://github.com/ktannehill](https://github.com/ktannehill)
+- LinkedIn: [https://www.linkedin.com/in/kat-tannehill](https://www.linkedin.com/in/kat-tannehill)
