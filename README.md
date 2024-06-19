@@ -53,7 +53,7 @@ Or just head to the [live site](https://kat-tannehill.dev/)!
   - **Projects:** A list of project cards, each with a brief description and a button to view more details on a dedicated project page.
   - **Contact:** Links to my social profiles and an email form for visitors to get in touch.
  
-![Screenshot (13)](https://github.com/ktannehill/portfolio/assets/139499376/218dd545-2010-4b5f-8615-6bc1b13b5485)
+![Screenshot (13)](https://github.com/ktannehill/portfolio/assets/139499376/a456db65-0743-4f4d-a900-2e297f18f865)
 
 - **Project Pages:**
   - **Detailed Description:** An in-depth overview of the project.
@@ -62,7 +62,7 @@ Or just head to the [live site](https://kat-tannehill.dev/)!
   - **Making Of:** A story detailing the development process and challenges faced.
   - **Links:** Direct links to the project's repository and live demo (if available).
  
-![Screenshot (14)](https://github.com/ktannehill/portfolio/assets/139499376/252d9fc3-7cee-42a1-9a04-0cf532c380df)
+![Screenshot (14)](https://github.com/ktannehill/portfolio/assets/139499376/4aa697f9-f250-4bf5-b207-1384d3d47df3)
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any bugs or feature requests.
