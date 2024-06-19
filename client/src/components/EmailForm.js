@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
 import env from "react-dotenv";
 import { toast } from 'react-toastify';
@@ -7,14 +7,11 @@ const service_id = env?.REACT_APP_email_service_id
 const public_key = env?.REACT_APP_email_public_key
 
 const EmailForm = () => {
-    // const form = useRef();
     const [formData, setFormData] = useState({
         from_name: '',
         from_email: '',
         message: ''
       });
-
-      console.log(formData)
     
       const handleChange = (e) => {
         const { name, value } = e.target;
@@ -37,7 +34,7 @@ const EmailForm = () => {
                     setFormData({ from_name: '', from_email: '', message: '' });
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
+                    // console.log('FAILED...', error.text);
                     toast.error('Failed to send message. Please try again later.')
                 },
             );

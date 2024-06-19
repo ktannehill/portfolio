@@ -11,7 +11,7 @@ function App() {
   return (
     <div id="flex">
       <Header />
-      <ToastContainer />
+      <ToastContainer theme="dark" autoClose={5000} limit={3} />
       <div id="outlet">
         <Outlet />
       </div>
