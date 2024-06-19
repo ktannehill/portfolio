@@ -22,6 +22,7 @@ This is my personal portfolio website where I showcase my projects, skills, and 
 - React Toastify
 - EmailJS
 - CSS
+- Firebase
 
 ## Setup and Installation
 1. **Clone the repository:**
