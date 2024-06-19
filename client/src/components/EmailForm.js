@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import env from "react-dotenv";
+import { toast } from 'react-toastify';
 
 const service_id = env?.REACT_APP_email_service_id
 const public_key = env?.REACT_APP_email_public_key
@@ -17,7 +18,8 @@ const EmailForm = () => {
             })
             .then(
                 () => {
-                    console.log('SUCCESS!');
+                    toast.success('Message sent successfully!');
+                    setFormData({ name: '', email: '', message: '' });
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
