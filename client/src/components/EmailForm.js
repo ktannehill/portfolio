@@ -34,7 +34,7 @@ const EmailForm = () => {
                     setFormData({ from_name: '', from_email: '', message: '' });
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
+                    // console.log('FAILED...', error.text);
                     toast.error('Failed to send message. Please try again later.')
                 },
             );
