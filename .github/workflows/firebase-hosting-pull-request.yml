@@ -8,8 +8,8 @@ permissions:
   contents: read
   pull-requests: write
 env:
-  REACT_APP_EMAIL_SERVICE_ID: ${{ secrets.REACT_APP_EMAIL_SERVICE_ID }}
-  REACT_APP_EMAIL_PUBLIC_KEY: ${{ secrets.REACT_APP_EMAIL_PUBLIC_KEY }}
+  REACT_APP_EMAIL_SERVICE_ID: ${{ secrets.REACT_APP_email_service_id }}
+  REACT_APP_EMAIL_PUBLIC_KEY: ${{ secrets.REACT_APP_email_public_key }}
 jobs:
   build_and_preview:
     if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
