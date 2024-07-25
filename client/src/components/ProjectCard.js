@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Project = ({ proj }) => {
+const ProjectCard = ({ proj }) => {
   const { id, image, title, summary } = proj
 
 
@@ -24,4 +24,4 @@ const Project = ({ proj }) => {
   )
 }
 
-export default Project
+export default ProjectCard
