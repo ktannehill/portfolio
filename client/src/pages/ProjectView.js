@@ -39,9 +39,9 @@ const ProjectView = () => {
         <h1>{title}</h1>
         <aside className='card-view padded'>
           <picture>
-            <source srcSet={largeImg} media='(min-width: 1000px)' />
-            <source srcSet={mediumImg} media='(min-width: 600px)' />
-            <img src={smallImg} alt={title} loading="lazy" />
+            <source srcSet={smallImg} media='(max-width: 600px)' />
+            <source srcSet={mediumImg} media='(max-width: 1200px)' />
+            <img src={largeImg} alt={title} loading="lazy" />
           </picture>
           <p><a href={link} target="_blank" rel="noopener noreferrer" className='link-effect'>
             GitHub
