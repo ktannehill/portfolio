@@ -1,13 +1,23 @@
-import project1 from '../images/project-1.png'
-import project2 from '../images/project-2.png'
-import project3 from '../images/project-3.png'
-import project4 from '../images/project-4.png'
-import project5 from '../images/project-5.png'
+import phase1LG from '../images/phase1LG.jpg'
+import phase1MD from '../images/phase1MD.jpg'
+import phase1SM from '../images/phase1SM.jpg'
+import phase2LG from '../images/phase2LG.jpg'
+import phase2MD from '../images/phase2MD.jpg'
+import phase2SM from '../images/phase2SM.jpg'
+import phase3LG from '../images/phase3LG.jpg'
+import phase3MD from '../images/phase3MD.jpg'
+import phase3SM from '../images/phase3SM.jpg'
+import phase4LG from '../images/phase4LG.jpg'
+import phase4MD from '../images/phase4MD.jpg'
+import phase4SM from '../images/phase4SM.jpg'
+import phase5LG from '../images/phase5LG.jpg'
+import phase5MD from '../images/phase5MD.jpg'
+import phase5SM from '../images/phase5SM.jpg'
 
 const PROJECTS = [
     {
         'id': 1,
-        'image': project1,
+        'images': [phase1LG, phase1MD, phase1SM],
         'title': 'Community Events Calendar',
         'summary': 'A dynamic, community-driven events calendar powered by vanilla JavaScript. Users can effortlessly browse upcoming happenings, update their RSVP status, and even create new events - all within a seamless single-page experience.',
         "link": "https://github.com/joeylee08/phaseoneproject",
@@ -28,7 +38,7 @@ const PROJECTS = [
     },
     {
         'id': 2,
-        'image': project2,
+        'images': [phase2LG, phase2MD, phase2SM],
         'title': 'Puppy PlayDate',
         'summary': 'A React-powered app that puts a delightful spin on matchmaking - this time, for our four-legged friends. Puppy PlayDate connects pet owners, facilitating furry playdates and fostering joyful connections between pups and their humans.',
         "link": "https://github.com/anthonyBosek/puppyPlayDate",
@@ -51,7 +61,7 @@ const PROJECTS = [
     },
     {
         'id': 3,
-        'image': project3,
+        'images': [phase3LG, phase3MD, phase3SM],
         'title': 'The Zen of Jeopardy',
         'summary': 'Experience the thrill of the classic TV game show Jeopardy, now brought to life in your command line interface! Test your knowledge, select categories, and keep score as you navigate this interactive trivia adventure.',
         "link": "https://github.com/zachtalmadge/the-zen-of-jeopardy",
@@ -72,7 +82,7 @@ const PROJECTS = [
     },
     {
         'id': 4,
-        'image': project4,
+        'images': [phase4LG, phase4MD, phase4SM],
         'title': 'CovenCraft',
         'summary': 'Discover an enchanting world where witches gather to explore magickal crafts and forge connections. Save your favorite creations and join a community united by creativity and camaraderie.',
         "link": "https://github.com/Reilly-737/CovenCraft",
@@ -98,7 +108,7 @@ const PROJECTS = [
     },
     {
         'id': 5,
-        'image': project5,
+        'images': [phase5LG, phase5MD, phase5SM],
         'title': 'Paws-ibilities Rescue',
         'summary': "Empower volunteers, connect pets, and make a difference! Explore adoptable pets, sign up for events, and foster meaningful connections with this full-stack web app. Join us in creating paw-sitive impacts, one rescue at a time.",
         "link": "https://github.com/ktannehill/pawsibilitiesRescue",

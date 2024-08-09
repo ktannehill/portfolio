@@ -5,33 +5,32 @@ import PROJECTS from "../assets/data/data"
 const ProjectView = () => {
   const { id } = useParams()
   const navigate = useNavigate()
-  const [currProj, setCurrProj] = useState({})
+  const [currProj, setCurrProj] = useState(null)
 
   useEffect(() => {
-    document
-      .getElementById("header")
-      ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }, [])
 
-  useEffect(() => {
-    const filtered_proj = PROJECTS.find(proj => proj.id === +id)
+    const filtered_proj = PROJECTS.find(proj => proj.id === +id);
 
-    setCurrProj(filtered_proj)
-
-    if (!filtered_proj) {
-      navigate("/")
+    if (filtered_proj) {
+      setCurrProj(filtered_proj);
+    } else {
+      navigate("/");
     }
+
+    document.getElementById("header")?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
   }, [id, navigate])
-
-  const { image, title, link, highlights, description, tech } = currProj
-
-  const mapped_tech = tech?.map(para => (<li key={para}>{para}</li>))
-  const mapped_HL = highlights?.map(para => (<li key={para}>{para}</li>))
-  const mapped_desc = description?.map(para => (<p key={para}>{para}</p>))
 
   if (!currProj) {
     return "Loading..."
   }
+  
+  const { images, title, link, highlights, description, tech } = currProj
+  const [largeImg, mediumImg, smallImg] = images
+
+  const mapped_tech = tech?.map(para => <li key={para}>{para}</li>)
+  const mapped_HL = highlights?.map(para => <li key={para}>{para}</li>)
+  const mapped_desc = description?.map(para => <p key={para}>{para}</p>)
 
   return (
     <section className='container padded'>
@@ -39,7 +38,11 @@ const ProjectView = () => {
       <div className='two-thirds'>
         <h1>{title}</h1>
         <aside className='card-view padded'>
-          <img src={image} alt={title} />
+          <picture>
+            <source srcSet={largeImg} media='(min-width: 1000px)' />
+            <source srcSet={mediumImg} media='(min-width: 600px)' />
+            <img src={smallImg} alt={title} loading="lazy" />
+          </picture>
           <p><a href={link} target="_blank" rel="noopener noreferrer" className='link-effect'>
             GitHub
           </a></p>
