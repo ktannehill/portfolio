@@ -179,10 +179,11 @@ code {
 
 #tech-list {
   list-style: none;
-  display: grid;
+  display: flex;
+  flex-direction: row;
   gap: 1rem;
-  grid-auto-columns: 1fr;
-  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+  /* grid-auto-columns: 1fr;
+  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) ); */
   padding: 0;
 }
 
@@ -251,6 +252,7 @@ a {
 }
 
 .link-effect {
+  color: var(--cream);
   position: relative;
   display: inline-block;
   z-index: 100;

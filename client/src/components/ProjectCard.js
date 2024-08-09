@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom'
 const ProjectCard = ({ proj }) => {
   const { id, images, title, summary } = proj
 
-  const largeImg = images[0]
-  const mediumImg = images[1]
-  const smallImg = images[2]
+  const [largeImg, mediumImg, smallImg] = images
 
   return (
     <div className='card'>
