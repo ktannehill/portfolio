@@ -17,7 +17,7 @@ import phase5SM from '../images/phase5SM.jpg'
 const PROJECTS = [
     {
         'id': 1,
-        'image': [phase1LG, phase1MD, phase1SM],
+        'images': [phase1LG, phase1MD, phase1SM],
         'title': 'Community Events Calendar',
         'summary': 'A dynamic, community-driven events calendar powered by vanilla JavaScript. Users can effortlessly browse upcoming happenings, update their RSVP status, and even create new events - all within a seamless single-page experience.',
         "link": "https://github.com/joeylee08/phaseoneproject",
@@ -38,7 +38,7 @@ const PROJECTS = [
     },
     {
         'id': 2,
-        'image': [phase2LG, phase2MD, phase2SM],
+        'images': [phase2LG, phase2MD, phase2SM],
         'title': 'Puppy PlayDate',
         'summary': 'A React-powered app that puts a delightful spin on matchmaking - this time, for our four-legged friends. Puppy PlayDate connects pet owners, facilitating furry playdates and fostering joyful connections between pups and their humans.',
         "link": "https://github.com/anthonyBosek/puppyPlayDate",
@@ -61,7 +61,7 @@ const PROJECTS = [
     },
     {
         'id': 3,
-        'image': [phase3LG, phase3MD, phase3SM],
+        'images': [phase3LG, phase3MD, phase3SM],
         'title': 'The Zen of Jeopardy',
         'summary': 'Experience the thrill of the classic TV game show Jeopardy, now brought to life in your command line interface! Test your knowledge, select categories, and keep score as you navigate this interactive trivia adventure.',
         "link": "https://github.com/zachtalmadge/the-zen-of-jeopardy",
@@ -82,7 +82,7 @@ const PROJECTS = [
     },
     {
         'id': 4,
-        'image': [phase4LG, phase4MD, phase4SM],
+        'images': [phase4LG, phase4MD, phase4SM],
         'title': 'CovenCraft',
         'summary': 'Discover an enchanting world where witches gather to explore magickal crafts and forge connections. Save your favorite creations and join a community united by creativity and camaraderie.',
         "link": "https://github.com/Reilly-737/CovenCraft",
@@ -108,7 +108,7 @@ const PROJECTS = [
     },
     {
         'id': 5,
-        'image': [phase5LG, phase5MD, phase5SM],
+        'images': [phase5LG, phase5MD, phase5SM],
         'title': 'Paws-ibilities Rescue',
         'summary': "Empower volunteers, connect pets, and make a difference! Explore adoptable pets, sign up for events, and foster meaningful connections with this full-stack web app. Join us in creating paw-sitive impacts, one rescue at a time.",
         "link": "https://github.com/ktannehill/pawsibilitiesRescue",
