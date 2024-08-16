@@ -1,13 +1,13 @@
 import React from 'react'
 import About from '../components/About'
-import Projects from '../components/Projects'
+import ProjectList from '../components/ProjectList'
 import Contact from '../components/Contact'
 
 const Home = () => {
   return (
     <div className='container padded'>
       <About />
-      <Projects />
+      <ProjectList />
       <Contact />
     </div>
   )

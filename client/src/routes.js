@@ -1,7 +1,7 @@
 import App from "./App";
 import ErrorPage from "./pages/ErrorPage";
 import Home from "./pages/Home";
-import ProjectView from "./pages/ProjectView";
+import ProjectDetail from "./pages/ProjectDetail";
 
 const routes = [
     {
@@ -16,7 +16,7 @@ const routes = [
             },
             {
                 path: "/project/:id",
-                element: <ProjectView />
+                element: <ProjectDetail />
             }
         ]
     }

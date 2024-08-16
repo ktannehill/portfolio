@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import PROJECTS from "../assets/data/data"
 
-const ProjectView = () => {
+const ProjectDetail = () => {
   const { id } = useParams()
   const navigate = useNavigate()
   const [currProj, setCurrProj] = useState(null)
@@ -71,4 +71,4 @@ const ProjectView = () => {
   )
 }
 
-export default ProjectView
+export default ProjectDetail
