@@ -1,5 +1,6 @@
 import React from 'react'
 import headshot from "../assets/images/headshot.jpg"
+import '../style/about.css'
 import { SiJavascript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
@@ -9,7 +10,7 @@ import { SiCss3 } from "react-icons/si";
 const About = () => {
   return (
     <>
-        <section className='box padded two-thirds'>
+        <section className='container box'>
             <aside id='main-img'>
                 <img src={headshot} alt="Hi, I'm Kat!" />
             </aside>
@@ -22,8 +23,8 @@ const About = () => {
             </main>
         </section>
         
-        <section id="about" className="dark-green-bg padded">
-            <main className='two-thirds'>
+        <section id="about" className="green-100">
+            <main className='container'>
                 <h2>About</h2>
                 <p>
                     In the late 90s, a hyper-focused kid (me) was obsessed with building the snazziest Neopets pages around, unlocking a determination to create cool digital stuff through HTML and CSS.

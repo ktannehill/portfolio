@@ -1,0 +1,11 @@
+#main-img {
+    width: 100%;
+}
+
+#main-img img {
+    width: 100%;
+    height: 100%;
+    min-width: 300px;
+    max-height: 600px;
+    object-fit: cover;
+}

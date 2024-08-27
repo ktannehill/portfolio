@@ -5,7 +5,7 @@ import Contact from '../components/Contact'
 
 const Home = () => {
   return (
-    <div className='container padded'>
+    <div>
       <About />
       <ProjectList />
       <Contact />
