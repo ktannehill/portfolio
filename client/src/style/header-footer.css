@@ -1,0 +1,55 @@
+/*! Header */
+
+#header {
+  background-color: var(--dark-green-1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+#header h3 {
+  position: relative;
+}
+
+#header h3::after {
+  content: "KT";
+  color: var(--dark-green-2);
+  top: 10%;
+  left: 10%;
+  bottom: 5%;
+  position: absolute;
+  z-index: -1;
+}
+
+#header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#header li {
+  padding: 0 1rem;
+}
+
+/*! Footer */
+
+#footer {
+  background-color: var(--dark-green-1);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 1rem;
+  font-size: 80%;
+}
+
+@media (min-width: 600px) {
+  #header {
+    padding: 0 3rem;
+  }
+
+  #footer {
+    padding: 0 3rem;
+  }
+}

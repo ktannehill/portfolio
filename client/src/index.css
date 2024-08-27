@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: "Nobile", sans-serif;
   line-height: 150%;
@@ -26,11 +26,11 @@ code {
 
   background: var(--dark-green-2);
   color: var(--cream)
-}
+} */
 
 /*! Containers */
 
-#flex {
+/* #flex {
   display: flex;
   flex-flow: column;
   min-height: 100vh;
@@ -46,7 +46,7 @@ code {
   margin: 0;
   padding: 0;
   flex: 1 1 auto;
-  /* overflow: auto; */
+  overflow: auto;
   background-color: rgba(40, 54, 24, 0.9);
 }
 
@@ -66,11 +66,11 @@ code {
 
 .padded {
   padding: 3rem 0;
-}
+} */
 
 /*! Header/ Footer */
 
-#header {
+/* #header {
   background-color: var(--dark-green-1);
   display: flex;
   justify-content: space-between;
@@ -110,7 +110,7 @@ code {
   align-items: center;
   padding: 0 3rem;
   font-size: 80%;
-}
+} */
 
 /*! Main Section */
 

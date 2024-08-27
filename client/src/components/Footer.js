@@ -1,4 +1,5 @@
 import React from 'react'
+import '../style/header-footer.css'
 import { FaHeart } from "react-icons/fa";
 import { FaCoffee } from "react-icons/fa";
 
