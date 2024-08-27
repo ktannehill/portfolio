@@ -6,7 +6,7 @@ const mapped_projects = PROJECTS.reverse().map(proj => <ProjectCard key={proj.id
 
 const Projects = () => {
   return (
-    <div id="projects" className='two-thirds padded'>
+    <div id="projects" className='container'>
         <h2>Projects</h2>
         <div>
           {mapped_projects}
