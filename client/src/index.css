@@ -356,7 +356,7 @@ h1:hover::before, h2:hover::before, .orange-block:hover::before {
 
 /*! Contact */
 
-.rev-box {
+/* .rev-box {
   display: flex;
   flex-direction: row;
   gap: 3rem;
@@ -420,7 +420,7 @@ button {
   cursor: pointer;
   width: fit-content;
   margin: 1rem;
-}
+} */
 
 /*! Media Queries */
 

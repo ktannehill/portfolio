@@ -54,7 +54,7 @@ code {
 .container {
     width: 100%;
     margin: auto;
-    padding: 2rem 1rem;
+    padding: 2rem 0;
 }
 
 .green-100 {
@@ -80,6 +80,10 @@ code {
 
 ::selection {
     background: var(--dark-orange-2);
+}
+
+p, h1, h2 {
+    margin: auto 1rem;
 }
 
 h1 {
@@ -146,7 +150,7 @@ a {
 
 @media (min-width: 600px) {
     .container {
-        padding: 3rem;
+        padding: 3rem 0;
     }
 
     .box {
@@ -155,12 +159,15 @@ a {
         justify-content: center;
         align-items: center;
     }
+
+    p, h1, h2 {
+        margin: auto;
+    }
 }
 
 @media (min-width: 1200px) {
     .container {
         width: 66.66%;
-        padding: 3rem 0;
     }
 }
 
