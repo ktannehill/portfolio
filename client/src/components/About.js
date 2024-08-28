@@ -14,7 +14,7 @@ const About = () => {
             <aside id='main-img'>
                 <img src={headshot} alt="Hi, I'm Kat!" />
             </aside>
-            <main>
+            <main className='padded'>
                 <h3>Hi, I'm</h3>
                 <h1>Kat Tannehill</h1>
                 <h3>
@@ -25,25 +25,27 @@ const About = () => {
         
         <section id="about" className="green-100">
             <main className='container'>
-                <h2>About</h2>
-                <p>
-                    In the late 90s, a hyper-focused kid (me) was obsessed with building the snazziest Neopets pages around, unlocking a determination to create cool digital stuff through HTML and CSS.
-                </p>
-                <p>
-                    After honing skills like communicating complex situations and juggling priorities in the high-intensity veterinary field, I've circled back as a full-stack software engineer. I have a knack for blending design with coding skills to develop responsive web apps with friendly user flows and vibrant interfaces.
+                <div className='padded'>
+                    <h2>About</h2>
+                    <p>
+                        In the late 90s, a hyper-focused kid (me) was obsessed with building the snazziest Neopets pages around, unlocking a determination to create cool digital stuff through HTML and CSS.
+                    </p>
+                    <p>
+                        After honing skills like communicating complex situations and juggling priorities in the high-intensity veterinary field, I've circled back as a full-stack software engineer. I have a knack for blending design with coding skills to develop responsive web apps with friendly user flows and vibrant interfaces.
 
-                </p>
-                <p>
-                    These days, you'll find me polishing slick frontend components and constructing organized backend architectures. When I unplug, I'm either devouring an epic fantasy novel, indulging my inner foodie, or desperately trying to keep my dramatic houseplant brood alive (no judging my black thumb!). I'm here to combine technical logic with creative vision to build digital solutions that people genuinely enjoy using.
-                </p>
+                    </p>
+                    <p>
+                        These days, you'll find me polishing slick frontend components and constructing organized backend architectures. When I unplug, I'm either devouring an epic fantasy novel, indulging my inner foodie, or desperately trying to keep my dramatic houseplant brood alive (no judging my black thumb!). I'm here to combine technical logic with creative vision to build digital solutions that people genuinely enjoy using.
+                    </p>
 
-                <aside id="tech-box" className='orange-accent'>
-                    <span className='tech'><SiCss3 /></span>
-                    <span className='tech'><SiJavascript /></span>
-                    <span className='tech'><FaReact /></span>
-                    <span className='tech'><FaPython /></span>
-                    <span className='tech'><SiFlask /></span>
-                </aside>
+                    <aside id="tech-box" className='orange-accent'>
+                        <span className='tech'><SiCss3 /></span>
+                        <span className='tech'><SiJavascript /></span>
+                        <span className='tech'><FaReact /></span>
+                        <span className='tech'><FaPython /></span>
+                        <span className='tech'><SiFlask /></span>
+                    </aside>
+                </div>
             </main>
         </section>
     </>

@@ -46,7 +46,7 @@ code {
 #outlet {
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 2rem 0;
     flex: 1 1 auto;
     background-color: rgba(40, 54, 24, 0.9);
 }
@@ -63,6 +63,8 @@ code {
 
 .green-100 {
     background-color: var(--dark-green-2);
+    padding: 1rem 0;
+    margin: 2rem 0;
 }
 
 .box {
@@ -89,6 +91,11 @@ code {
 h1 {
     font-size: 2rem;
     margin: 0;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin: 0.5rem 0;
 }
 
 a {
@@ -149,9 +156,9 @@ a {
 /*! Media Queries */
 
 @media (min-width: 600px) {
-    .container {
+    /* .container {
         padding: 3rem 0;
-    }
+    } */
 
     .padded {
         padding: 0 3rem;

@@ -30,7 +30,7 @@
 }
 
 #header li {
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 
 /*! Footer */
@@ -47,6 +47,10 @@
 @media (min-width: 600px) {
   #header {
     padding: 0 3rem;
+  }
+
+  #header li {
+    padding: 0 1rem;
   }
 
   #footer {
