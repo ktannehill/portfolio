@@ -1,3 +1,5 @@
+/* General */
+
 body {
     margin: 0;
     font-family: "Nobile", sans-serif;
@@ -30,7 +32,7 @@ code {
 
 
 
-/*! Containers */
+/* Containers */
 
 #flex {
     display: flex;
@@ -82,7 +84,7 @@ code {
 
 
 
-/*! Text Styles */
+/* Text Styles */
 
 ::selection {
     background: var(--dark-orange-2);
@@ -155,30 +157,24 @@ a {
 
 /*! Media Queries */
 
-@media (min-width: 600px) {
-    /* .container {
-        padding: 3rem 0;
-    } */
-
-    .padded {
-        padding: 0 3rem;
+@media (min-width: 800px) {
+    .container {
+        padding: 2rem 3rem;
     }
 
     .box {
         flex-direction: row;
         gap: 3rem;
-        justify-content: center;
-        align-items: center;
+    }
+
+    .padded {
+        padding: 0;
     }
 }
 
 @media (min-width: 1200px) {
     .container {
         width: 66.66%;
-    }
-
-    .padded {
-        padding: 0;
     }
 }
 

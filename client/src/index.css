@@ -139,7 +139,7 @@ code {
   object-fit: cover;
 } */
 
-#tech-box {
+/* #tech-box {
   display: flex;
   justify-content: space-evenly;
   font-size: 200%;
@@ -175,7 +175,7 @@ code {
 #tech-box .tech:hover::before {
   background: var(--dark-orange-2);
   transform: translateY(3px);
-}
+} */
 
 #tech-list {
   list-style: none;

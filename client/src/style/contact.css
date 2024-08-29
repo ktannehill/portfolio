@@ -1,12 +1,16 @@
+/* Contact Section */
+
 .rev-box {
+    width: 90%;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     gap: 1rem;
 }
   
 .icon {
     font-size: 120%;
-    margin: 0.5rem;
+    margin-right: 0.5rem;
 }
   
 .contact-links {
@@ -14,6 +18,7 @@
     padding: 1rem 0;
     display: flex;
     align-items: center;
+    width: calc(45%);
 }
   
 .contact-links:hover, .contact-links:hover a, p a {
@@ -23,7 +28,7 @@
 
 
 
-/*! Email Form */
+/* Email Form */
   
 #form-container {
     width: 100%;
@@ -70,9 +75,13 @@ button {
 
 
 
-@media (min-width: 600px) {
+/*! Media Queries */
+
+@media (min-width: 800px) {
     .rev-box {
+        width: 33%;
         flex-direction: column;
+        justify-content: space-evenly;
         gap: 0;
     }
 
