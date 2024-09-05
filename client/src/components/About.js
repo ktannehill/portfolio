@@ -10,17 +10,19 @@ import { SiCss3 } from "react-icons/si";
 const About = () => {
   return (
     <>
-        <section className='container box'>
-            <aside id='main-img'>
+        <section className='container intro'>
+            <aside className='headshot'>
                 <img src={headshot} alt="Hi, I'm Kat!" />
             </aside>
-            <main className='padded'>
+            <div className='headline'>
                 <h3>Hi, I'm</h3>
                 <h1>Kat Tannehill</h1>
+            </div>
+            <div className='blurb padded'>
                 <h3>
                     Full-stack software artist blending creative vision with React/Flask skills. Crafting intuitive web experiences through purposeful design (and puns).
                 </h3>
-            </main>
+            </div>
         </section>
         
         <section id="about" className="green-100">

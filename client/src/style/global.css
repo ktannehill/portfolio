@@ -48,7 +48,7 @@ code {
 #outlet {
     width: 100%;
     margin: 0;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     flex: 1 1 auto;
     background-color: rgba(40, 54, 24, 0.9);
 }
@@ -56,7 +56,7 @@ code {
 .container {
     max-width: 100%;
     margin: auto;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
 }
 
 .padded {
@@ -66,7 +66,7 @@ code {
 .green-100 {
     background-color: var(--dark-green-2);
     padding: 1rem 0;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .box {
@@ -156,6 +156,24 @@ a {
 
 
 /*! Media Queries */
+
+@media (min-width: 600px) {
+    #outlet {
+        padding: 2rem 0;
+    }
+
+    .container {
+        padding: 2rem 1rem;
+    }
+
+    .padded {
+        padding: 0 2rem;
+    }
+
+    .green-100 {
+        margin: 2rem 0;
+    }
+}
 
 @media (min-width: 800px) {
     .container {
