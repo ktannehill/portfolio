@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '../style/header-footer.css'
 // import { MdSunny } from "react-icons/md";
 // import { IoMoon } from "react-icons/io5";
 

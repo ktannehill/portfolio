@@ -1,0 +1,91 @@
+/* Contact Section */
+
+.rev-box {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+  
+.icon {
+    font-size: 120%;
+    margin-right: 0.5rem;
+}
+  
+.contact-links {
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    width: calc(45%);
+}
+  
+.contact-links:hover, .contact-links:hover a, p a {
+    color: var(--dark-orange-1);
+    cursor: pointer;
+}
+
+
+
+/* Email Form */
+  
+#form-container {
+    width: 100%;
+    max-width: 800px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+  
+#form-container label {
+    font-size: 80%;
+    display: block;
+    color: var(--dark-orange-1);
+}
+  
+#form-container label input, #form-container textarea {
+    display: block;
+    width: 90%;
+    padding: 0.5rem;
+}
+  
+textarea {
+    resize: none;
+    height: 100px;
+}
+  
+input:focus, textarea:focus {
+    outline: 1px solid var(--dark-orange-2);
+    box-shadow: 4px 4px 0px var(--dark-orange-2);
+    border: none;
+}
+  
+button {
+    border: none;
+    font-size: 120%;
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--cream);
+    text-decoration: none;
+    cursor: pointer;
+    width: fit-content;
+    margin: 1rem;
+}
+
+
+
+/*! Media Queries */
+
+@media (min-width: 800px) {
+    .rev-box {
+        width: 33%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 0;
+    }
+
+    #form-container {
+        width: 66%;
+    }
+}

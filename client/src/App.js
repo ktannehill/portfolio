@@ -6,7 +6,6 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
-  // const notify = () => toast("Wow so easy !");
 
   return (
     <div id="flex">
