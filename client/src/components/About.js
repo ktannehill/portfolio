@@ -14,15 +14,13 @@ const About = () => {
             <aside className='headshot'>
                 <img src={headshot} alt="Hi, I'm Kat!" />
             </aside>
-            <div className='headline'>
+            <main className='text-container'>
                 <h3>Hi, I'm</h3>
                 <h1>Kat Tannehill</h1>
-            </div>
-            <div className='blurb padded'>
                 <h3>
                     Full-stack software artist blending creative vision with React/Flask skills. Crafting intuitive web experiences through purposeful design (and puns).
                 </h3>
-            </div>
+            </main>
         </section>
         
         <section id="about" className="green-100">
