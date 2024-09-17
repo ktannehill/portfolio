@@ -38,14 +38,20 @@ const ProjectDetail = () => {
     <>
 
       <div className='container'>
-        <h1 className='orange-block'>{title}</h1>
+        <div className='padded'>
+          <div className='heading-container'>
+            <div className='orange-block'>
+              <h1>{title}</h1>
+            </div>
+          </div>
+        </div>
         <aside>
           <picture className='card'>
             <source srcSet={smallImg} media='(max-width: 600px)' />
             <source srcSet={mediumImg} media='(max-width: 1200px)' />
             <img src={largeImg} alt={title} loading="lazy" />
           </picture>
-          <p><a href={link} target="_blank" rel="noopener noreferrer" className='link-effect'>
+          <p className='padded'><a href={link} target="_blank" rel="noopener noreferrer" className='link-effect'>
             GitHub
           </a></p>
         </aside>

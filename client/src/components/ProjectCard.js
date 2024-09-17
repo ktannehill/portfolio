@@ -17,7 +17,7 @@ const ProjectCard = ({ proj }) => {
       
       <div className='details'>
         <h3>{title}</h3>
-        <p>{summary}</p>
+        <p className='blurb'>{summary}</p>
 
         <Link to={`/project/${id}`}>
           <button className='link-effect link-effect-green'>
