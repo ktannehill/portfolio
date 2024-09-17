@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import PROJECTS from "../assets/data/data"
+import '../style/global.css'
+import '../style/project-detail.css'
 
 const ProjectDetail = () => {
   const { id } = useParams()
@@ -33,12 +35,12 @@ const ProjectDetail = () => {
   const mapped_desc = description?.map(para => <p key={para}>{para}</p>)
 
   return (
-    <section className='container padded'>
+    <>
 
-      <div className='two-thirds'>
-        <h1>{title}</h1>
-        <aside className='card-view padded'>
-          <picture>
+      <div className='container'>
+        <h1 className='orange-block'>{title}</h1>
+        <aside>
+          <picture className='card'>
             <source srcSet={smallImg} media='(max-width: 600px)' />
             <source srcSet={mediumImg} media='(max-width: 1200px)' />
             <img src={largeImg} alt={title} loading="lazy" />
@@ -49,25 +51,27 @@ const ProjectDetail = () => {
         </aside>
       </div>
 
-        <main className='dark-green-bg padded'>
-          <div className='two-thirds'>
+      <main className='green-100'>
+        <div className='container'>
+          <div className='padded'>
             <ul id="tech-list" className='orange-accent'>
               {mapped_tech}
             </ul>
 
             <div className='padded'>
-              <h2>Highlights</h2>
+              <h2 className='orange-block'>Highlights</h2>
               <ul>
                 {mapped_HL}
               </ul>
             </div>
 
-            <h2>The Making Of</h2>
+            <h2 className='orange-block'>The Making Of</h2>
             {mapped_desc}
           </div>
-        </main>
+        </div>
+      </main>
 
-    </section>
+    </>
   )
 }
 

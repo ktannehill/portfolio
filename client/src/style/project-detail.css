@@ -1,0 +1,14 @@
+#tech-list {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    /* grid-auto-columns: 1fr;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) ); */
+    padding: 0;
+    margin-bottom: 3rem;
+}
+
+#tech-list li {
+    padding: 0 0.5rem;
+}

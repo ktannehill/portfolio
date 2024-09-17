@@ -141,6 +141,7 @@ a {
     position: relative;
     display: inline-block;
     z-index: 100;
+    color: var(--cream);
 }
   
 .link-effect::before, .link-effect::after {
