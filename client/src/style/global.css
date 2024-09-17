@@ -30,7 +30,10 @@ code {
     --dark-orange-2: rgb(188, 108, 37); 
 
     background: var(--dark-green-2);
-    color: var(--cream)
+    color: var(--cream);
+
+    --link-color: var(--dark-orange-1);
+    --link-color-hover: var(--dark-orange-2);
 }
 
 
@@ -103,6 +106,31 @@ h2 {
     margin: 0.5rem 0;
 }
 
+.orange-block {
+    transition: 0.5s;
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+    max-width: fit-content; 
+}
+
+.orange-block::before {
+    content: "";
+    width: calc(100% + 2rem);
+    position: absolute;
+    transition: 0.5s;
+    top: 30%;
+    bottom: 5%;
+    transform: translateX(5%);
+    z-index: -1;
+    background: var(--dark-orange-1);
+}
+
+.orange-block:hover::before {
+    top: 20%;
+    background: var(--dark-orange-2);
+}
+
 a {
     color: var(--cream);
     text-decoration: none;
@@ -113,6 +141,7 @@ a {
     position: relative;
     display: inline-block;
     z-index: 100;
+    color: var(--cream);
 }
   
 .link-effect::before, .link-effect::after {
@@ -126,30 +155,35 @@ a {
 }
   
 .link-effect::before {
-    background: var(--dark-orange-1);
+    background: var(--link-color);
     left: 5%;
     transform: translateY(3px);
 }
   
 .link-effect::after {
-    background: var(--dark-orange-2);
+    background: var(--link-color-hover);
     left: 48%;
     transform: translateY(-3px);
 }
 
 .link-effect:hover::before, .link-effect:hover::after {
-    background: var(--dark-orange-2);
+    background: var(--link-color-hover);
     transition: 0.5s;
 }
   
 .link-effect:hover::before {
-    background: var(--dark-orange-2);
+    background: var(--link-color-hover);
     transform: translateY(0px);
 }
   
 .link-effect:hover::after {
-    background: var(--dark-orange-2);
+    background: var(--link-color-hover);
     transform: translateY(0px);
+}
+
+.link-effect-green {
+    --link-color: var(--dark-green-1);
+    --link-color-hover: var(--dark-green-2);
 }
   
 .orange-accent {
