@@ -16,7 +16,7 @@ const About = () => {
             </aside>
             <main className='text-container'>
                 <h3>Hi, I'm</h3>
-                <h1>Kat Tannehill</h1>
+                <h1 className='orange-block'>Kat Tannehill</h1>
                 <h3>
                     Full-stack software artist blending creative vision with React/Flask skills. Crafting intuitive web experiences through purposeful design (and puns).
                 </h3>
@@ -26,7 +26,7 @@ const About = () => {
         <section id="about" className="green-100">
             <main className='container'>
                 <div className='padded'>
-                    <h2>About</h2>
+                    <h2 className='orange-block'>About</h2>
                     <p>
                         In the late 90s, a hyper-focused kid (me) was obsessed with building the snazziest Neopets pages around, unlocking a determination to create cool digital stuff through HTML and CSS.
                     </p>

@@ -103,6 +103,31 @@ h2 {
     margin: 0.5rem 0;
 }
 
+.orange-block {
+    transition: 0.5s;
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+    max-width: fit-content; 
+}
+
+.orange-block::before {
+    content: "";
+    width: calc(100% + 2rem);
+    position: absolute;
+    transition: 0.5s;
+    top: 30%;
+    bottom: 5%;
+    transform: translateX(5%);
+    z-index: -1;
+    background: var(--dark-orange-1);
+}
+
+.orange-block:hover::before {
+    top: 20%;
+    background: var(--dark-orange-2);
+}
+
 a {
     color: var(--cream);
     text-decoration: none;
