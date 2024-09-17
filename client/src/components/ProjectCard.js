@@ -20,7 +20,7 @@ const ProjectCard = ({ proj }) => {
         <p>{summary}</p>
 
         <Link to={`/project/${id}`}>
-          <button className='green-block'>
+          <button className='link-effect link-effect-green'>
             More
           </button>
         </Link>

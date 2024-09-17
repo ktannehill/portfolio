@@ -30,7 +30,10 @@ code {
     --dark-orange-2: rgb(188, 108, 37); 
 
     background: var(--dark-green-2);
-    color: var(--cream)
+    color: var(--cream);
+
+    --link-color: var(--dark-orange-1);
+    --link-color-hover: var(--dark-orange-2);
 }
 
 
@@ -151,30 +154,35 @@ a {
 }
   
 .link-effect::before {
-    background: var(--dark-orange-1);
+    background: var(--link-color);
     left: 5%;
     transform: translateY(3px);
 }
   
 .link-effect::after {
-    background: var(--dark-orange-2);
+    background: var(--link-color-hover);
     left: 48%;
     transform: translateY(-3px);
 }
 
 .link-effect:hover::before, .link-effect:hover::after {
-    background: var(--dark-orange-2);
+    background: var(--link-color-hover);
     transition: 0.5s;
 }
   
 .link-effect:hover::before {
-    background: var(--dark-orange-2);
+    background: var(--link-color-hover);
     transform: translateY(0px);
 }
   
 .link-effect:hover::after {
-    background: var(--dark-orange-2);
+    background: var(--link-color-hover);
     transform: translateY(0px);
+}
+
+.link-effect-green {
+    --link-color: var(--dark-green-1);
+    --link-color-hover: var(--dark-green-2);
 }
   
 .orange-accent {
