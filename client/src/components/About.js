@@ -16,7 +16,7 @@ const About = () => {
             </aside>
             <main className='text-container'>
                 <h3>Hi, I'm</h3>
-                <h1 className='orange-block'>Kat Tannehill</h1>
+                <h1 className='orange-block intro-orange-block'>Kat Tannehill</h1>
                 <h3>
                     Full-stack software artist blending creative vision with React/Flask skills. Crafting intuitive web experiences through purposeful design (and puns).
                 </h3>

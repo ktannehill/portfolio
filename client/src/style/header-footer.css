@@ -5,11 +5,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
 #header .orange-block::before {
-  width: calc(100% + 1rem);
+  min-width: 100%;
+  max-width: 100%;
 }
 
 #header h3 {
