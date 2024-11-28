@@ -5,6 +5,9 @@ import { toast } from 'react-toastify';
 const service_id = process.env.REACT_APP_email_service_id
 const public_key = process.env.REACT_APP_email_public_key
 
+console.log("Service ID accessible in production:", process.env.REACT_APP_email_service_id === "TEST_VALUE_SERVICE_ID");
+console.log("Public Key accessible in production:", process.env.REACT_APP_email_public_key === "TEST_VALUE_PUBLIC_KEY");
+
 const EmailForm = () => {
     const [formData, setFormData] = useState({
         from_name: '',
