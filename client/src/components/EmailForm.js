@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
-// import env from "react-dotenv";
 import { toast } from 'react-toastify';
 
 const service_id = process.env.REACT_APP_email_service_id
