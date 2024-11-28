@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
-// import env from "react-dotenv";
 import { toast } from 'react-toastify';
 
 const service_id = process.env.REACT_APP_email_service_id
@@ -34,7 +33,7 @@ const EmailForm = () => {
                     setFormData({ from_name: '', from_email: '', message: '' });
                 },
                 (error) => {
-                    // console.log('FAILED...', error.text);
+                    console.log('FAILED...', error.text);
                     toast.error('Failed to send message. Please try again later.')
                 },
             );

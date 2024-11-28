@@ -22,7 +22,7 @@ This is my personal portfolio website where I showcase my projects, skills, and 
 - React Toastify
 - EmailJS
 - CSS
-- Firebase
+- Vercel
 
 ## Setup and Installation
 1. **Clone the repository:**
@@ -73,5 +73,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 - Kat Tannehill: [katetannehill@gmail.com](mailto:katetannehill@gmail.com)
-- GitHub: [https://github.com/ktannehill](https://github.com/ktannehill)
 - LinkedIn: [https://www.linkedin.com/in/kat-tannehill](https://www.linkedin.com/in/kat-tannehill)
+- GitHub: [https://github.com/ktannehill](https://github.com/ktannehill)
