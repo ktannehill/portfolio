@@ -7,7 +7,6 @@ This is my personal portfolio website where I showcase my projects, skills, and 
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -57,16 +56,13 @@ Or just head to the [live site](https://kat-tannehill.dev/)!
 ![Screenshot (13)](https://github.com/ktannehill/portfolio/assets/139499376/a456db65-0743-4f4d-a900-2e297f18f865)
 
 - **Project Pages:**
-  - **Detailed Description:** An in-depth overview of the project.
+  - **Description:** An in-depth overview of the project.
   - **Tech Stack:** Technologies used in the project.
   - **Highlights:** Key features and functionalities of the project.
   - **Making Of:** A story detailing the development process and challenges faced.
   - **Links:** Direct links to the project's repository and live demo (if available).
  
 ![Screenshot (14)](https://github.com/ktannehill/portfolio/assets/139499376/4aa697f9-f250-4bf5-b207-1384d3d47df3)
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any bugs or feature requests.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
