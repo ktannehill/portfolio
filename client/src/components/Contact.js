@@ -5,7 +5,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
 // import { SiCalendly } from "react-icons/si";
 import { IoDocumentTextSharp } from "react-icons/io5";
-import resume from "../assets/documents/resume_kat_tannehill.pdf"
 import EmailForm from './EmailForm';
 
 const Contact = () => {
@@ -44,7 +43,7 @@ const Contact = () => {
                         </h3>
                         <h3 className='contact-links'>
                             <span className='icon'><IoDocumentTextSharp /></span>
-                            <a href={resume} target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.kat-tannehill.dev/assets/resume_kat_tannehil.pdf" target="_blank" rel="noopener noreferrer">
                                 Resume
                             </a>
                         </h3>
