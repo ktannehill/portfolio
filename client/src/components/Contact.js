@@ -43,7 +43,7 @@ const Contact = () => {
                         </h3>
                         <h3 className='contact-links'>
                             <span className='icon'><IoDocumentTextSharp /></span>
-                            <a href="https://www.kat-tannehill.dev/assets/resume_kat_tannehil.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="/docs/resume_kat_tannehil.pdf" target="_blank" rel="noopener noreferrer">
                                 Resume
                             </a>
                         </h3>
